@@ -54,6 +54,6 @@ https://github.com/dreidelman/soon
 
 - [polysymphonic](https://github.com/polysymphonic) for creating the theme
 - [Obscure](https://github.com/kritishd8) for the icon change
-- [blueb442](https://github.com/blueb442) for the color palette
+- [blueb442](https://github.com/ihateblueb) for the color palette
 - [Gibbu](https://github.com/Gibbu) for Radial Status
 - [Doggybootsy](https://github.com/doggybootsy), [A User](https://github.com/abUwUser) & [Disease](https://github.com/maenDisease) for anyother snippets i used
