@@ -263,11 +263,11 @@ Do Not Touch.
 .layer-1Ixpg3 .banner__6d414:hover,.profileBanner-2zIsK7:hover, .banner-2boKnS:hover, .popoutBanner__3fbe8:hover, .popoutBannerPremium-3i5EE:hover, .bannerPremium__69560:hover {
   filter:none;
 }
-.userPopoutInnerNonPremium-3zrFkp .bannerSVGWrapper-qc0szY foreignObject { /* Banner SVG Fix */
+.userPopoutInnerNonPremium-3zrFkp .bannerSVGWrapper__8a38c foreignObject { /* Banner SVG Fix */
   mask: none;
 }
-.bannerSVGWrapper-qc0szY>mask {
-  display:none;
+.bannerSVGWrapper__8a38c mask circle {
+    display:none;
 }
   
 /* Avatar */
