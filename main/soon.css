@@ -641,19 +641,13 @@ Do Not Touch.
   background-color: var(--background-secondary);
   border-radius:10px;
 }
-.content__01e65:not(#a),.title_d4ba1a:not(#a) {
-  background-color: var(--background-primary);
+.content__01e65:not(#a),.title_d4ba1a:not(#a),.pageBody_c0e5dd,.header__71942,.page_e5cc79 {
+  background-color: var(--background-primary)!important;
 }
-.container_c68a2c, .containerCard__95c7a {
+.container_c68a2c, .containerCard__95c7a,.contentWrapper_f9bc93:not(#a),.container__2e9cc {
   background-color: var(--background-secondary);
 }
-.guildIconImage_c1aa48:not(#a),
-.iconActiveLarge__21948:not(#a) {
-    background-color:#0e0c11!;
-}
-.contentWrapper_f9bc93:not(#a) {
-  background-color: var(--background-secondary);
-}
+.guildIconImage_c1aa4
 .inviteSplash__0cd5c {
   filter:blur(0.956px);
   transition: 0.5s all ease;
