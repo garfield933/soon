@@ -484,7 +484,8 @@ Do Not Touch.
 .scroller__991cb:not(#a),
 #uid_40:not(#a),
 #popout_8885:not(#a),
-.reactors__0f305:not(#a) {
+.reactors__0f305:not(#a),
+.list__5ced9 /* this is unrelated to popups / modals sorry i cba to format this properly anymore im too busy! its ok tho. this is just the uh background for the forums page ! */ {
   background-color:var(--background-primary);
 }
 .emojiItem_de65fd.emojiItemSelected__023be:not(#a),
@@ -923,4 +924,8 @@ body #app-mount .quickSelectPopout__56a98>.quickSelectPopoutOption_b852b1:hover{
 }
 .status__4454b {
     border-radius: 5px;
+}
+.mainCard__0ec2c,.channelRow__538ef {
+  background-color: var(--background-secondary);
+  border: 2px rgba(255, 255, 255, 0.048) solid;
 }
