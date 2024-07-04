@@ -6,6 +6,9 @@ Discord UserID: 678469587444170762
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/BIRBanners.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+.avatar_f9f2ca {
+    border-radius: var(--rs-avatar-shape);
+} /* temp fix for radialstat (discord class change 7/4/2024) */
 
 
 /* 
@@ -277,8 +280,18 @@ TheCommieAxolotl - Base code
 Debuggerz1 - Math
  */
 
-.groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa,
-.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+/* 
+-Message Bubbles-
+By Disease
+Discord UserID: 678469587444170762
+
+Credits
+TheCommieAxolotl - Base code
+Debuggerz1 - Math
+ */
+
+.groupStart_d5deea.cozyMessage_d5deea>.contents_f9f2ca,
+.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
     max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
@@ -290,15 +303,15 @@ Debuggerz1 - Math
     box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
 }
 
-.cozyMessage_d5deea.automodMessage_d5deea:before,
+.cozyMessage_d5deea .automodMessage_d5deea:before,
 .cozyMessage_d5deea.ephemeral_d5deea:before,
 .cozyMessage_d5deea.mentioned_d5deea:before,
 .cozyMessage_d5deea.replying_d5deea:before {
     width: calc(2px - (var(--chat-bubble) * 2px));
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.mentioned_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+.groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea .contents_f9f2ca,
+.cozyMessage_d5deea.mentioned_d5deea:not(.groupStart_d5deea) .contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
     background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
@@ -309,10 +322,10 @@ Debuggerz1 - Math
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.replying_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.replying_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
-.groupStart_d5deea.cozyMessage_d5deea.ephemeral_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.ephemeral_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+.groupStart_d5deea.cozyMessage_d5deea.replying_d5deea .contents_f9f2ca,
+.cozyMessage_d5deea.replying_d5deea:not(.groupStart_d5deea) .contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *),
+.groupStart_d5deea.cozyMessage_d5deea.ephemeral_d5deea .contents_f9f2ca,
+.cozyMessage_d5deea.ephemeral_d5deea:not(.groupStart_d5deea) .contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
     background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
@@ -324,8 +337,8 @@ Debuggerz1 - Math
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea .contents_ec86aa,
-.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea .contents_f9f2ca,
+.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea) .contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
     background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
@@ -336,8 +349,8 @@ Debuggerz1 - Math
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea:hover .contents_ec86aa,
-.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea):hover .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea:hover .contents_f9f2ca,
+.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea):hover .contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) {
     background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
@@ -348,16 +361,17 @@ Debuggerz1 - Math
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-.groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa .markup_d6076c code,
-.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) code {
+.groupStart_d5deea.cozyMessage_d5deea>.contents_f9f2ca .markup_f8f345 code,
+.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_f9f2ca>.markup_f8f345:not(:empty, .searchResultsWrap_c2b47d *) code {
     background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
     background-color: var(--background-secondary);
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
-.markup_d6076c blockquote, .markup_d6076c pre {
+.markup_f8f345 blockquote, .markup_f8f345 pre {
     max-width: 100%;
 }
+
 
 /* 
 -Bearable Inbox-
