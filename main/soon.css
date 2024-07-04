@@ -628,7 +628,7 @@ Do Not Touch.
   background-color: var(--background-secondary);
 }
 .react-datepicker:not(#a),
-.calendarPicker__47c85:not(#a),
+.calendarPicker_be05cd:not(#a),
 .react-datepicker__current-month:not(#a),
 .react-datepicker__header:not(#a),
 .react-datepicker__month:not(#a)  {
@@ -833,22 +833,22 @@ Do Not Touch.
 #app-mount .elevationBorderLow_ff8688{
   background: var(--background-secondary);
 }
-body #app-mount .phoneFieldScroller_ff761b>.selectableItem__5e076:hover{
+body #app-mount .phoneFieldScroller_ff761b>.selectableItem_d40acf:hover{
   background-color: var(--user-popout-bg);
 }
-#app-mount .phoneFieldScroller_ff761b>.selectableItem__5e076:focus{
+#app-mount .phoneFieldScroller_ff761b>.selectableItem_d40acf:focus{
   background-color: transparent;
 }
 
 /* region popout restyle */
-#app-mount .quickSelectPopout__56a98{
+#app-mount .quickSelectPopout_abbf45{
   background: var(--background-floating);
   backdrop-filter: blur(20px);
 }
-body #app-mount .quickSelectPopout__56a98>.quickSelectPopoutOption_b852b1:hover{
+body #app-mount .quickSelectPopout_abbf45>.quickSelectPopoutOption_b852b1:hover{
   background-color: var(--background-modifier-hover);
 }
-#app-mount .quickSelectPopout__56a98>.quickSelectPopoutOption_b852b1:focus{
+#app-mount .quickSelectPopout_abbf45>.quickSelectPopoutOption_b852b1:focus{
   background-color: transparent;
 }
 .topControls_dd069c>:not([class])>.flex_ec1a20{
