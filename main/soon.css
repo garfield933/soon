@@ -56,7 +56,7 @@ code {
   mask: none;
   border-radius: var(--folder-radius);
 }
-.icon_f11207 {
+.icon_a64689 {
   mask:none;
   border-radius:var(--server-radius);
 }
@@ -129,8 +129,8 @@ code {
 
 /* Avatars */
 .wrapper_c51b4e foreignObject,
-.callAvatarMask_a5cd29 foreignObject,
-.avatarContainer_c47562 foreignObject,
+.callAvatarMask_db83a2 foreignObject,
+.avatarContainer_d03bba foreignObject,
 .avatarMasked__0b3c8 {
   mask: none;
   -webkit-mask: none;
@@ -138,19 +138,19 @@ code {
 .wrapper_c51b4e,
 .avatar_c51b4e,
 .profile_d6fbe8 .avatarUploaderInner-yEhTv5,
-.voiceAvatar_a5cd29,
-.avatar_ec86aa,
-.border_a5cd29,
+.voiceAvatar_db83a2,
+.avatar_f9f2ca,
+.border_db83a2,
 .avatar_cdc675,
-.clickableAvatar_c47562,
-.emptyUser_c47562,
-.avatar_c47562,
-.wrapper_a5cd29.ringingIncoming_a5cd29::after,
-.wrapper_a5cd29.ringingOutgoing_a5cd29::after,
-.replyAvatar_ec86aa,
+.clickableAvatar_d03bba,
+.emptyUser_d03bba,
+.avatar_d03bba,
+.wrapper_db83a2.ringingIncoming_db83a2::after,
+.wrapper_db83a2.ringingOutgoing_db83a2::after,
+.replyAvatar_f9f2ca,
 .avatarSpeaking-33RRJU,
 .avatar-2EVtgZ,
-.avatarContainerMasked_c47562,
+.avatarContainerMasked_d03bba,
 .appAvatar-2_lufo {
   border-radius: var(--avatar-radius);
 }
@@ -215,7 +215,7 @@ This is for the
 (Purpura Color Palette by blueb442)
 Do Not Touch.
 */
-.theme-dark.container_e44302 {
+.theme-dark.container_fc4f04 {
   background-color:var(--toolbar-bg);
 }
 .circleIconButton_db6521 {
@@ -224,15 +224,15 @@ Do Not Touch.
 .childWrapper_a6ce15.acronym_fb7739 {
   background-color:#17151d;
 }
-.autocomplete_f23da8,.autocomplete_bea0d0,.autocompleteAttached_bea0d0:not(#a) {
+.autocomplete_bcc24e,.autocomplete_bea0d0,.autocompleteAttached_bea0d0:not(#a) {
   background-color:var(--autocomplete-bg);
 }
-.autocompleteInner_f23da8 {
+.autocompleteInner_bcc24e {
   background-color:var(--autocomplete-bg);
 }
 
 /* bug fixes */
-.children_e44302:after{
+.children_fc4f04:after{
   content: none;
 }
   
@@ -271,15 +271,15 @@ Do Not Touch.
 }
   
 /* Avatar */
-.replyAvatar_ec86aa {
+.replyAvatar_f9f2ca {
   mask:none;
   border-radius:var(--reply-avatar-radius);
 }
-.avatar_ec86aa {
+.avatar_f9f2ca {
   border:1px solid transparent;
   transition: all ease-in-out 0.55s;
 }
-.avatar_ec86aa:hover {
+.avatar_f9f2ca:hover {
   border-color:rgba(104, 58, 126, 0.322);
 }
 .wrapper_c51b4e circle {
@@ -521,7 +521,7 @@ Do Not Touch.
 .messageGroupCozy_ac90a2 {
   background-color:var(--messagebox-bg);
 }
-.container_c2739c .themed_e44302 {
+.container_c2739c .themed_fc4f04 {
   background-color: var(--background-primary);
 }
 .avatarUploaderNormal-1h8g3f,
@@ -574,7 +574,7 @@ Do Not Touch.
   border:none;
 }
 
-.container_c2739c .themed_e44302{
+.container_c2739c .themed_fc4f04{
   background-color:var(--background-primary);
 }
 
@@ -609,7 +609,7 @@ Do Not Touch.
     background-color: var(--opened-folder-bg);
 }
 
-.invite_cdcad9:not(#a) {
+.invite_f61cb8:not(#a) {
   background-color: rgb(0,255,0,0.07);
 }
 .keyboardShortcutsModal_ad95dc:not(#a) {
@@ -812,22 +812,22 @@ Do Not Touch.
 }
 
 /* phone number modal styling */
-.phoneVerificationModal_a4eb9e{
+.phoneVerificationModal_fb9bea{
   background-color: #121016;
 }
-.phoneVerificationModal_a4eb9e>.flex_bba380>button{
+.phoneVerificationModal_fb9bea>.flex_bba380>button{
   background-color: var(--brand-experiment-500);
 }
-.phoneVerificationModal_a4eb9e>.flex_bba380>button:hover{
+.phoneVerificationModal_fb9bea>.flex_bba380>button:hover{
   background-color: var(--brand-experiment-560);
 }
-.phoneVerificationModal_a4eb9e>.flex_bba380>input,
-.phoneVerificationModal_a4eb9e>.flex_bba380{
+.phoneVerificationModal_fb9bea>.flex_bba380>input,
+.phoneVerificationModal_fb9bea>.flex_bba380{
   background-color: var(--messagebox-bg);
   box-shadow: none;
   border: 0;
 }
-.phoneVerificationModal_a4eb9e>.flex_bba380{
+.phoneVerificationModal_fb9bea>.flex_bba380{
   filter: drop-shadow(0 0 5px var(--messagebox-bg));
 }
 #app-mount .elevationBorderLow_ff8688{
@@ -922,7 +922,7 @@ body #app-mount .quickSelectPopout_abbf45>.quickSelectPopoutOption_b852b1:hover{
 .contextMenuNub_ef18ee:hover {
   background-color: rgba(0, 0, 0, 0.185)!important;
 }
-.status_a5cd29 {
+.status_db83a2 {
     border-radius: 5px;
 }
 .mainCard_a6d69a,.channelRow_f04d06 {
