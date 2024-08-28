@@ -103,7 +103,11 @@ by blueb442 (Modified Purpura Palette)
     }
     .scroller_cedfaf {
         background-color: var(--background-secondary);
-    }
+
+    /* titlebar */
+.titleBar_a934d8 {
+    background-color: var(--background-tertiary);
+}
     .container-1Lk8p7 .contents_dd4f85 {
         color:white;
     }
