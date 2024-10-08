@@ -929,3 +929,42 @@ body #app-mount .quickSelectPopout_abbf45>.quickSelectPopoutOption_b852b1:hover{
   background-color: var(--background-secondary);
   border: 2px rgba(255, 255, 255, 0.048) solid;
 }
+
+/* Vencord Stuff */
+.vc-plugins-filter-controls .inputWrapper_f8bc55 input,
+.vc-plugins-filter-controls .select_f6639d {
+    background-color: var(--background-tertiary);
+    border-color: var(--background-tertiary);
+}
+.vc-settings-quickActions-pill {
+    border-radius:5px;
+}
+
+/* Scrollbar bug (in Settings, when your screen is smaller) fix */
+.header_a0 > *{
+    overflow:hidden;
+}
+
+/* Titlebar half-colored fix */
+.typeWindows_a934d8 {
+    background-color: var(--background-tertiary);
+}
+
+/* Apps Menu */
+.channelAppLauncher_df39bd button {
+    background-color: var(--messagebox-bg);
+    border-radius: 5px;
+}
+.contentWrapper_f7506e {
+    background-color: var(--background-primary)
+}
+.appDetailsContainer_e5da8b {
+    background-color: var(--background-secondary-alt);
+    transition: ease-in-out 0.2s all;
+}
+.appDetailsContainer_e5da8b:hover {
+    background-color: var(--background-tertiary);
+}
+.container_fb1469 {
+    background-color: var(--background-secondary-alt);
+}
