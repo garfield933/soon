@@ -99,18 +99,18 @@ code {
   
   
 /* User Panel */
-.button_f67531 {
+.button_adca65 {
   background-color: #18141d;
   border-radius:0px;
   transition: all 0.2s ease-in-out;
 }
-.button_f67531:hover:not(#a) {
+.button_adca65:hover:not(#a) {
   background-color: #241f2b;
 }
-.button_f67531:first-child {
+.button_adca65:first-child {
   border-radius: 10px 0 0 10px;
 }
-.button_f67531:last-child {
+.button_adca65:last-child {
   border-radius: 0 10px 10px 0;
 }
 .status-2DiCMd svg:not(#a) {
@@ -141,7 +141,7 @@ code {
 .voiceAvatar_db83a2,
 .avatar_f9f2ca,
 .border_db83a2,
-.avatar_cdc675,
+.avatar_d80634,
 .clickableAvatar_d03bba,
 .emptyUser_d03bba,
 .avatar_d03bba,
@@ -187,7 +187,7 @@ code {
   border: solid 2px var(--background-tertiary);
   background-color: var(--background-tertiary);
 }
-.unreadMentionsIndicatorBottom_fea3ef.bar_c10249,.unreadMentionsBar_fea3ef:not(#a) {
+.unreadMentionsIndicatorBottom_fea3ef.bar_edf32f,.unreadMentionsBar_fea3ef:not(#a) {
   mask: none;
   border-radius: 5px;
 }
@@ -256,11 +256,11 @@ Do Not Touch.
 }
   
 /* Banners */
-.layer-1Ixpg3 .banner_c3e427 .banner-2boKnS,.bannerPremium-86naOf,.profileBanner-2zIsK7, .popoutBanner-16rVDY, .popoutBanner_c3e427, .popoutBannerPremium-3i5EE, .bannerPremium_c3e427 {
+.layer-1Ixpg3 .banner_d5fdb1 .banner-2boKnS,.bannerPremium-86naOf,.profileBanner-2zIsK7, .popoutBanner-16rVDY, .popoutBanner_c3e427, .popoutBannerPremium-3i5EE, .bannerPremium_c3e427 {
   filter: blur(calc(var(--banner-blur-amount) * 1px * var(--banner-blur)));
   transition:1s ease all;
 }
-.layer-1Ixpg3 .banner_c3e427:hover,.profileBanner-2zIsK7:hover, .banner-2boKnS:hover, .popoutBanner_c3e427:hover, .popoutBannerPremium-3i5EE:hover, .bannerPremium_c3e427:hover {
+.layer-1Ixpg3 .banner_d5fdb1:hover,.profileBanner-2zIsK7:hover, .banner-2boKnS:hover, .popoutBanner_c3e427:hover, .popoutBannerPremium-3i5EE:hover, .bannerPremium_c3e427:hover {
   filter:none;
 }
 .userPopoutInnerNonPremium-3zrFkp .bannerSVGWrapper_b32cc2 foreignObject { /* Banner SVG Fix */
@@ -297,7 +297,7 @@ Do Not Touch.
 .theme-light .thin_eed6a8::-webkit-scrollbar-thumb {
   background-color: var(--dark-background-tertiary);
 }
-.theme-light .subtitle-3m-md1,.theme-light .subtitle-bIoUVX,.theme-light .subtitle-1cc8Nz,.theme-light .optionHeader-27AHfD,.theme-light .text-PdAsFQ,.theme-light .text-sm-normal-3Zj3Iv,.theme-light .skip-2hTIXL,.theme-light .guidelines-FvqqF2,.theme-light .colorStandard_fbc755,.theme-light .text-xs-normal-3SiVjE.rowText-3MQqQi:not(#a) {
+.theme-light .subtitle-3m-md1,.theme-light .subtitle-bIoUVX,.theme-light .subtitle-1cc8Nz,.theme-light .optionHeader-27AHfD,.theme-light .text-PdAsFQ,.theme-light .text-sm-normal-3Zj3Iv,.theme-light .skip-2hTIXL,.theme-light .guidelines-FvqqF2,.theme-light .colorStandard_d1aa77,.theme-light .text-xs-normal-3SiVjE.rowText-3MQqQi:not(#a) {
   color: var(--dark-header-secondary) ;
 }
 .theme-light .inputDefault-3FGxgL,.theme-light .sampleLink-5BWNy9 {
@@ -618,7 +618,7 @@ Do Not Touch.
 .scroller_f2bfbb:not(#a) {
   background-color: var(--background-secondary-alt);
 }
-.avatarSmall_cdc675:not(#a) {
+.avatarSmall_d80634:not(#a) {
   border-radius:5px;
 }
 .modalSize-3WSXDU {
@@ -779,7 +779,7 @@ Do Not Touch.
 }
 
 /* spinning avatar which is ugly as fuck */
-.spinningAvatar_eb2d2c{
+.spinningAvatar_bea843{
   animation: none;
 }
 
@@ -815,19 +815,19 @@ Do Not Touch.
 .phoneVerificationModal_fb9bea{
   background-color: #121016;
 }
-.phoneVerificationModal_fb9bea>.flex_bba380>button{
+.phoneVerificationModal_fb9bea>.flex_dc333f>button{
   background-color: var(--brand-experiment-500);
 }
-.phoneVerificationModal_fb9bea>.flex_bba380>button:hover{
+.phoneVerificationModal_fb9bea>.flex_dc333f>button:hover{
   background-color: var(--brand-experiment-560);
 }
-.phoneVerificationModal_fb9bea>.flex_bba380>input,
-.phoneVerificationModal_fb9bea>.flex_bba380{
+.phoneVerificationModal_fb9bea>.flex_dc333f>input,
+.phoneVerificationModal_fb9bea>.flex_dc333f{
   background-color: var(--messagebox-bg);
   box-shadow: none;
   border: 0;
 }
-.phoneVerificationModal_fb9bea>.flex_bba380{
+.phoneVerificationModal_fb9bea>.flex_dc333f{
   filter: drop-shadow(0 0 5px var(--messagebox-bg));
 }
 #app-mount .elevationBorderLow_ff8688{
@@ -892,7 +892,7 @@ body #app-mount .quickSelectPopout_abbf45>.quickSelectPopoutOption_b852b1:hover{
 }
 
 /* Voice Chat PFPs */
-.voiceUser_cdc675 .content_cdc675 .userAvatar_ac3629 {
+.voiceUser_d80634 .content_d80634 .userAvatar_ac3629 {
   border-radius:var(--rs-avatar-shape)!important;
 }
 
