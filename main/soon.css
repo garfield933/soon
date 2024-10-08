@@ -381,11 +381,15 @@ Do Not Touch.
     bottom: 0;
     z-index: 1;
 }
-.tutorialContainer_c96c45 + .listItem_c96c45 {
+.listItem_c96c45:has(.fixedDiscoveryIcon_fea3ef) {
     position: fixed;
     bottom: 58px;
     contain: none;
     z-index: 1;
+}
+.listItem_c96c45:has(.fixedDiscoveryIcon_fea3ef) foreignObject {
+    mask: none;
+    border-radius: var(--folder-radius);
 }
 .tutorialContainer_f9623d > * {
     margin-bottom:0px!important;
