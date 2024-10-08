@@ -968,3 +968,11 @@ body #app-mount .quickSelectPopout_abbf45>.quickSelectPopoutOption_b852b1:hover{
 .container_fb1469 {
     background-color: var(--background-secondary-alt);
 }
+
+/* PFP Fix */
+.mask_d5fdb1 circle {
+    display:none;
+}
+.overlay_f94206::after {
+    border-radius:5px;
+}
