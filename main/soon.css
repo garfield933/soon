@@ -175,17 +175,17 @@ code {
 }
   
 /* Mentions */
-.numberBadge__40d6f:not(#a) {
+.numberBadge_df8943:not(#a) {
   mask: none;
   -webkit-mask: none;
   border-radius: 5px;
-  border: solid 1px var(--background-primary);
+  border: solid 1px var(--background-tertiary);
 }
 .lowerBadge_c5f96a:not(#a) {
   border-radius: 5px 3px 0 3px;
   margin: 0 -5px -5px 0;
-  border: solid 2px var(--background-primary);
-  background-color: var(--background-primary);
+  border: solid 2px var(--background-tertiary);
+  background-color: var(--background-tertiary);
 }
 .unreadMentionsIndicatorBottom_fea3ef.bar_c10249,.unreadMentionsBar_fea3ef:not(#a) {
   mask: none;
