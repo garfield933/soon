@@ -193,14 +193,14 @@ code {
 }
 
 /* Message Box */
-.channelTextArea_a7d72e>.scrollableContainer_d0696b:not(#a) {
+.channelTextArea_a7d72e>.scrollableContainer_bdf0de:not(#a) {
   border-radius:5px;
   background-color:var(--messagebox-bg);
 }
 .placeholder_a552a6 {
   text-align:var(--messagebox-align);
 }
-.textArea-220_Gz, .channelTextArea_d0696b, .scrollableContainer_d0696b {
+.textArea-220_Gz, .channelTextArea_bdf0de, .scrollableContainer_bdf0de {
   background-color:var(--messagebox-bg);
 }
 
