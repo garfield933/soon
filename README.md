@@ -1,8 +1,5 @@
 <h1 align="center">Soon [maintained]</h1>
-<p align="center">This is a maintained version of</p>
-<p align="center">
-https://github.com/dreidelman/soon
-</p>
+<p align="center">This is a maintained version of Soon by Satana</p>
 <p align="center">
   <a href="#installation">installation</a> |
   <a href="#modify">modify</a> |
