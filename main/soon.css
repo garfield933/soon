@@ -108,7 +108,7 @@ code {
   background-color: #241f2b;
 }
 .button__67645:first-child {
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px!important;
 }
 .button__67645:last-child {
   border-radius: 0 10px 10px 0;
@@ -956,7 +956,7 @@ body #app-mount .quickSelectPopout_ebaca5>.quickSelectPopoutOption_b852b1:hover{
 
 /* Apps Menu */
 .channelAppLauncher_e6e74f button {
-    background-color: var(--messagebox-bg);
+    background-color: var(--messagebox-bg);	
     border-radius: 5px;
 }
 .contentWrapper__9c62c {
