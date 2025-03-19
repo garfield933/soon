@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">A smooth, modifiable theme for simple-minded people.</p>
-<h6 align="center">Theme by polysymphonic | Discord: 1102042422898335754</h6>
+<h6 align="center">Theme by Satana</h6>
 
 <h6 align="center">Support Server: https://discord.gg/q2Zd6hcAhx</h6>
 
@@ -51,7 +51,7 @@
 
 ## Credits
 
-- [polysymphonic](https://github.com/polysymphonic) for creating the theme
+- Satana for creating the theme
 - [Obscure](https://github.com/kritishd8) for the icon change
 - [blueb442](https://github.com/ihateblueb) for the color palette
 - [Gibbu](https://github.com/Gibbu) for Radial Status
