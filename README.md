@@ -9,6 +9,8 @@
 <p align="center">A smooth, modifiable theme for simple-minded people.</p>
 <h6 align="center">Theme by polysymphonic | Discord: 1102042422898335754</h6>
 
+<h6 align="center">Support Server: https://discord.gg/q2Zd6hcAhx</h6>
+
 ---
 
 <h1 align="center">Previews</h1>
