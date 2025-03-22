@@ -98,17 +98,17 @@ by blueb442 (Modified Purpura Palette)
     --itemtab-selected: #000000bd;
     }
     
-    .inputForm-3RoxXV .inputDefault_f8bc55, .container-1Lk8p7 .inputDefault_f8bc55 {
+    .inputForm-3RoxXV .inputDefault__0f084, .container-1Lk8p7 .inputDefault__0f084 {
         background-color: var(--background-tertiary);
     }
-    .scroller_cedfaf {
+    .scroller__67dba {
         background-color: var(--background-secondary);
 
     /* titlebar */
-.titleBar_a934d8 {
+.titleBar__421ed {
     background-color: var(--background-tertiary);
 }
-    .container-1Lk8p7 .contents_dd4f85 {
+    .container-1Lk8p7 .contents__201d5 {
         color:white;
     }
     
