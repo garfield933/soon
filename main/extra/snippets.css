@@ -5,7 +5,7 @@ Discord UserID: 678469587444170762
 */
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/BIRBanners.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
 .avatar_c19a55 {
     border-radius: var(--rs-avatar-shape);
 } /* temp fix for radialstat (discord class change 7/4/2024) */
