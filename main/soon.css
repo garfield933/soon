@@ -877,6 +877,9 @@ body #app-mount .quickSelectPopout_ebaca5>.quickSelectPopoutOption_b852b1:hover{
 .privateChannels__35e86 {
     border-top-left-radius:15px!important;
 }
+.visual-refresh .sidebarListRounded_c48ade{
+    border-top-left-radius: 5px!important;
+}
 
 /* Tab Bars (user profile) */
 .tabBarItem-3VvT2z {
