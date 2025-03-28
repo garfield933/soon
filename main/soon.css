@@ -874,7 +874,7 @@ body #app-mount .quickSelectPopout_ebaca5>.quickSelectPopoutOption_b852b1:hover{
 }
 
 /* Radius fix for sidebar, not important enough to label */
-.privateChannels__35e86 {
+.privateChannels__35e86:not(.visual-refresh) {
     border-top-left-radius:15px!important;
 }
 .visual-refresh .sidebarListRounded_c48ade{
