@@ -588,7 +588,7 @@ Do Not Touch.
 .panels_c48ade {
   order:var(--userpanel-position);
   min-height:48px;
-  background-color: var(--background-primary);
+  background-color: var(--background-primary)!important;
 }
 .panels_c48ade .avatar__37e49 {
   margin-left:3px;
@@ -998,3 +998,5 @@ body #app-mount .quickSelectPopout_ebaca5>.quickSelectPopoutOption_b852b1:hover{
 .visual-refresh .sidebarListRounded_c48ade{
     border-top-left-radius: 5px!important;
 }
+
+/* fleep you, visual refresh */
