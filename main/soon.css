@@ -590,7 +590,6 @@ Do Not Touch.
 .panels_c48ade {
   order:var(--userpanel-position);
   min-height:48px;
-  background-color: var(--background-primary)!important;
 }
 .panels_c48ade .avatar__37e49 {
   margin-left:3px;
