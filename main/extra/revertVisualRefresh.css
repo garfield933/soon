@@ -1,4 +1,4 @@
-/* revert visual refresh, made by Soon blahblahblah, some parts are from other people (credited) */
+/* revert visual refresh, made by Soon blahblahblah, some parts are from other people (credited i think) */
 
 /* Og panels */
 .visual-refresh [class^="panels_"] {
@@ -25,9 +25,6 @@
     display: none;
 }
 
-                              
-/* Remove the top part */
-
 
 /* Og channel icons */
 .visual-refresh .guildIcon__48112[style]{
@@ -43,18 +40,16 @@
 .visual-refresh .sidebar_c48ade:after {
     content:none;
 }
-.listItem__650eb:has(.discoveryIcon_ef3116) {
-    bottom:76px;
-}
+
 .listItem__650eb:has(.discoveryIcon_ef3116)  {
-    bottom:76px;
+    bottom:76px!important;
     background: linear-gradient(transparent, var(--background-tertiary) 25%);
     width:63px;
     left:4px;
 
 }
 .tutorialContainer__650eb {
-    bottom:15px;
+    bottom:15px!important;
 }
 :root {
     --guildbar-scale: 1.20;
