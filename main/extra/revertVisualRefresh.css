@@ -1,0 +1,367 @@
+/* revert visual refresh, made by Soon blahblahblah, some parts are from other people (credited) */
+
+/* Og panels */
+.visual-refresh [class^="panels_"] {
+    border:none;
+    bottom: 0px;
+    left: 73px;
+    width: calc(81%);
+    border-radius: 0px;
+    background-color: var(--background-secondary);
+    >[class^="container_"] {
+        padding: 0px;
+        margin: 0 8px;
+        height: 57px;
+    }
+}
+.visual-refresh [class^="sidebar_"] > [class*="guilds_"] {
+    margin-bottom: 0px;
+}
+
+                              
+/* Idk weird thingies be gone */
+:where(.visual-refresh) .dot__9293f,
+.winButtonsWithDivider_c38106:before{
+    display: none;
+}
+
+                              
+/* Remove the top part */
+
+
+/* Og channel icons */
+.visual-refresh .guildIcon__48112[style]{
+    --custom-guild-icon-size: calc(var(--guildbar-folder-size) / 2 - var(--space-8) / 2 - 0px);
+    border-radius: 10px !important;
+}
+.visual-refresh .closedFolderIconWrapper__48112{
+    gap: 0;
+    border-radius: 0;
+}
+
+/* server list */
+.visual-refresh .sidebar_c48ade:after {
+    content:none;
+}
+.listItem__650eb:has(.discoveryIcon_ef3116) {
+    bottom:76px;
+}
+.listItem__650eb:has(.discoveryIcon_ef3116)  {
+    bottom:76px;
+    background: linear-gradient(transparent, #08070a 25%); /* --background-tertiary */
+    width:63px;
+    left:4px;
+
+}
+.tutorialContainer__650eb {
+    bottom:15px;
+}
+:root {
+    --guildbar-scale: 1.20;
+}
+/* -- Fix server icons size -- */
+/* Target non-server icons on the left bar */
+.scroller_ef3116 > div:not(.stack_dbd263) {
+    padding-top:8px;
+    scale: var(--guildbar-scale);
+}
+/* Fix server icons size and add some padding */
+.tutorialContainer__1f388 ~.stack_dbd263
+.listItem__650eb > :nth-child(2) {
+    scale: var(--guildbar-scale);
+    margin: 5px 0;
+}
+/* Make folders take all space they need */
+ul.stack_dbd263{
+    height: auto !important;
+}
+/* Increase width of the folder background */
+.expandedFolderBackground__48112 {
+    transform: scaleX(calc(var(--guildbar-scale) * 0.95));
+}
+.tutorialContainer__1f388 > .listItem__650eb:first-child {
+    top:14px!important;
+}
+.itemsContainer_ef3116 .stack_dbd263:nth-child(1) {
+    height:calc(100% - 140px)!important;
+}
+.stack_dbd263 {
+    bottom:5px;
+}
+
+/* User Panel */
+.panels_c48ade .button__201d5:not(.colorRed__201d5) {
+    margin-right:-4px!important;
+    position:relative;
+}
+.panels_c48ade .buttons__37e49:nth-child(2):not(.colorRed__201d5) {
+    border-radius:0px!important;
+}
+.panels_c48ade .button__201d5:nth-child(2):not(.colorRed__201d5) {
+    border-radius:0px;
+}
+.panels_c48ade .button__201d5:nth-child(4):not(.colorRed__201d5) {
+    border-radius: 0px 9px 9px 0px!important;
+}
+.panels_c48ade .buttons__37e49 {
+    position:relative;
+    right:5px;
+}
+.panels_c48ade {
+    background-color: #0e0c11!important; /* --background-secondary-alt */
+}
+.panels_c48ade .button__67645 {
+    background-color: #18141d;
+}
+.note_fcb628 textarea {
+    background-color: #08070ae5!important;
+}
+
+/* * No Transitions * */
+/* friends list tabs */
+.peopleListItem_cc6179, /* friends list tabs */ 
+.item_b3f026, /* settings tabs */
+.button__201d5 /* settings profile buttons */ {
+    transition:none!important;
+}
+.peopleColumn__133bf {
+    background-color: #15131a;
+}
+.container__9293f, .searchBar__35e86  {
+    border-color:#15131a!important;
+    box-shadow: -3px 1px 4px rgba(0, 0, 0, 0.388);
+}
+.searchBar__35e86, .header_f37cb1 {
+    border:none!important;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.388)!important;
+}
+.addFriend__133bf {
+    background-color: #237f44!important;
+}
+.selected_b3f026 {
+    background-color: #1f1d25!important;
+}
+.visual-refresh .topPill_b3f026 .item_b3f026 {
+    padding:7px;
+    height:0px;
+}
+
+
+/* title bar */
+.stack_dbd263, .itemsContainer_ef3116, .title_c38106 {
+    background-color: #08070a!important; /* --background-tertiary */
+}
+.title__85643 .icon_f34534 {
+    display:none;
+}
+
+/* DM list / Channel List coloring / Settings coloring */
+.scroller__99e7c, .privateChannels__35e86, .scroller__629e4, .header_f37cb1, .sidebarRegionScroller__23e6b  {
+    background-color:#121016!important; /* --background-secondary */
+}
+.interactive_bf202d.selected_bf202d {
+    background-color:#1a191f!important;
+}
+.searchBar__35e86 .button__201d5 .contents__201d5 {
+    position:relative;
+    right:35px;
+    color:#72767d;
+}
+:where(.visual-refresh) .container_a45028 {
+    border:0px;
+}
+.input_a45028, .iconLayout_a45028  {
+    bottom:3px;
+    position:relative;
+}
+.searchBar__5ec2f  {
+    height:35px!important;
+    border-radius:4px;
+}
+.dm__972a0 {
+    border-radius:4px;
+}
+
+/* random coloring */
+.scroller__36d07, .form_f75fb0, .members_c8ffbb, .contentRegionScroller__23e6b,
+.sidebar_c48ade, .sidebarList_c48ade {
+    background-color: #15131a!important; /* --background-primary */
+}
+.sectionDivider__35e86 {
+    background-color: transparent!important;
+}
+.visual-refresh .searchBar__35e86, .sidebarList_c48ade {
+    border:none!important;
+}
+
+/* servers / dms */
+/* textbox */
+.scrollableContainer__74017, .channelTextArea_f75fb0  {
+    border:none!important;
+}
+
+/* search bars */
+.visual-refresh .searchBar__97492 {
+    background-color: #08070a; /* --background-tertiary */
+    border:none;
+    height:24px;
+    border-radius:5px;
+}
+.visual-refresh .searchBar__97492 .DraftEditor-root {
+    bottom:2px;
+}
+.visual-refresh .searchBar__97492 .icon_fea832 {
+    position:relative;
+    top:-1px;
+    left:-1px;
+}
+/* settings */
+.contents__201d5 {
+    font-size:15px;
+}
+/* buttons */
+:where(.visual-refresh) .button__201d5 {
+    border-radius:3px;
+    border:none;
+}
+.fieldButton__1fed1 {
+    border-radius: 993px!important;
+}
+/* textboxes/inputs */
+.inputDefault__0f084 {
+    border-radius:4px;
+    background-color:#1e1f22;
+    border:none!important;
+    transition:none!important;  
+}
+:where(.visual-refresh) .input__0f084 {
+    height:40px;
+}
+.bioTextArea__6a919, .bioTextAreaContainer__6a919 {
+    border:none!important;
+    border-radius:4px;
+}
+.searchBar_c7e907 {
+    background-color: #08070a!important; /* --background-tertiary */
+    border:none!important;
+    border-radius:4px!important;
+}
+
+/* title bar */
+.visual-refresh .chat_f75fb0[data-has-border=true], .visual-refresh .container__133bf {
+    border-top:none;
+}
+
+/* Restore Chatbar Button Sizes by riddim_glitch */
+.buttons__74017 {
+  scale: 1.2;
+  translate: -37px;
+  padding-left: 40px;
+}
+.attachButton__0923f  {
+  scale: 1.2;
+  translate: 5px;
+}
+
+/* titlebar text */
+.title_c38106 {
+  justify-content: center;
+  .title__85643 {
+    .guildIcon__85643  {
+      display:none;
+    };
+    .lineClamp1__4bd52 {
+      font-size: 0;
+      &:before {
+        font-size: medium;
+        content: "Soon";
+        color: white;
+      }
+    }
+  }
+}
+.title__85643 svg {
+    display:none;
+}
+
+/* context menu's (right-click) */
+.menu_c1e9c4 {
+    border:none;
+}
+.item_c1e9c4 {
+    border-radius:3px!important;
+}
+.item_c1e9c4.focused_c1e9c4 {
+    background-color: #5865f2; /* --blurple */
+}
+
+.searchBar__35e86 .button__201d5 {
+    background-color: #08070a!important;
+}
+
+/* buttons */
+.select__3f413 {
+    border:none!important;
+    border-radius:4px!important;
+    background-color: #1e1f22!important;
+    min-height:40px!important;
+}
+/* dropdown buttons */
+.popout__3f413 {
+    border:none;
+    border-radius:0px 0px 4px 4px;
+    margin-top:-2px!important;
+    background-color: #121016;
+    border:1px solid black;
+}
+
+/* user profile popout */
+.tabBarItem_d1d9f3 {
+    background-color: transparent!important;
+}
+/* vencord stuff */
+.vc-settings-quickActions-card {
+    background-color: #121016!important;
+}
+
+.vc-settings-quickActions-pill {
+    background-color: #0e0c11; /* --background-secondary-alt */
+}
+.vc-settings-tab-bar-item item_b3f026 {
+    background-color: transparent!important;
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026 {
+    --selected-tab-item-color: white;
+    transition:none;
+}
+:where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026::after {
+    content:none;
+}
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026 {
+    border-bottom:1px solid #949cf7;
+}
+.vc-settings-card {
+    background-color: #121016!important; /* --background-secondary */
+    border-radius:4px!important;
+}
+
+
+/* create server modal */
+.root__49fc1, .footer_c04f35, .header_c04f35, .header__49fc1 {
+    border-radius:4px!important;
+    border:none!important;
+}
+.container_eb2cd2 {
+    border-radius:4px;
+}
+.closeButton_c04f35 {
+    position:relative;
+    top:-85px;
+    left:195px;
+}
+
+/* server icons */
+.listItem__650eb .blobContainer_e5445c .wrapper_cc5dd2 foreignObject .acronym__6e9f8, .tutorialContainer__1f388 .listItemWrapper__91816 .wrapper_cc5dd2 .wrapper__6e9f8 > *:not(:hover) {
+    background-color: #17151d!important;
+}
