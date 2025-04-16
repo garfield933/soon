@@ -48,7 +48,7 @@
 }
 .listItem__650eb:has(.discoveryIcon_ef3116)  {
     bottom:76px;
-    background: linear-gradient(transparent, #08070a 25%); /* --background-tertiary */
+    background: linear-gradient(transparent, var(--background-tertiary) 25%);
     width:63px;
     left:4px;
 
@@ -108,7 +108,7 @@ ul.stack_dbd263{
     right:5px;
 }
 .panels_c48ade {
-    background-color: #0e0c11!important; /* --background-secondary-alt */
+    background-color: var(--background-secondary-alt)!important;
 }
 .panels_c48ade .button__67645 {
     background-color: #18141d;
@@ -149,7 +149,7 @@ ul.stack_dbd263{
 
 /* title bar */
 .stack_dbd263, .itemsContainer_ef3116, .title_c38106 {
-    background-color: #08070a!important; /* --background-tertiary */
+    background-color: var(--background-tertiary)!important;
 }
 .title__85643 .icon_f34534 {
     display:none;
@@ -157,7 +157,7 @@ ul.stack_dbd263{
 
 /* DM list / Channel List coloring / Settings coloring */
 .scroller__99e7c, .privateChannels__35e86, .scroller__629e4, .header_f37cb1, .sidebarRegionScroller__23e6b  {
-    background-color:#121016!important; /* --background-secondary */
+    background-color:var(--background-secondary)!important; 
 }
 .interactive_bf202d.selected_bf202d {
     background-color:#1a191f!important;
@@ -185,7 +185,7 @@ ul.stack_dbd263{
 /* random coloring */
 .scroller__36d07, .form_f75fb0, .members_c8ffbb, .contentRegionScroller__23e6b,
 .sidebar_c48ade, .sidebarList_c48ade {
-    background-color: #15131a!important; /* --background-primary */
+    background-color: var(--background-primary)!important;
 }
 .sectionDivider__35e86 {
     background-color: transparent!important;
@@ -202,7 +202,7 @@ ul.stack_dbd263{
 
 /* search bars */
 .visual-refresh .searchBar__97492 {
-    background-color: #08070a; /* --background-tertiary */
+    background-color: var(--background-tertiary);
     border:none;
     height:24px;
     border-radius:5px;
@@ -242,7 +242,7 @@ ul.stack_dbd263{
     border-radius:4px;
 }
 .searchBar_c7e907 {
-    background-color: #08070a!important; /* --background-tertiary */
+    background-color: var(--background-tertiary)!important; 
     border:none!important;
     border-radius:4px!important;
 }
@@ -325,7 +325,7 @@ ul.stack_dbd263{
 }
 
 .vc-settings-quickActions-pill {
-    background-color: #0e0c11; /* --background-secondary-alt */
+    background-color: var(--background-secondary-alt); 
 }
 .vc-settings-tab-bar-item item_b3f026 {
     background-color: transparent!important;
@@ -342,7 +342,7 @@ ul.stack_dbd263{
     border-bottom:1px solid #949cf7;
 }
 .vc-settings-card {
-    background-color: #121016!important; /* --background-secondary */
+    background-color: var(--background-secondary)!important; 
     border-radius:4px!important;
 }
 
