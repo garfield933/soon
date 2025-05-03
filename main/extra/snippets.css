@@ -9,6 +9,17 @@ Discord UserID: 678469587444170762
 .avatar_c19a55 {
     border-radius: var(--rs-avatar-shape);
 } /* temp fix for radialstat (discord class change 7/4/2024) */
+/* temp fix for radialstat (discord status color change 5/3/2025) */
+/* idk the color for streaming people ill fix that later lol, hmu if yk it */
+#app-mount .wrapper__44b0c rect[fill="#43a25a"], #app-mount .wrapper__44b0c rect[fill="#40a258"] {
+  stroke: var(--rs-online-color);
+}
+#app-mount .wrapper__44b0c rect[fill="#ca9654"], #app-mount .wrapper__44b0c rect[fill="#cc954c"] {
+  stroke: var(--rs-idle-color);
+}
+#app-mount .wrapper__44b0c rect[fill="#d83a42"], #app-mount .wrapper__44b0c rect[fill="#d83a41"] {
+  stroke: var(--rs-dnd-color);
+}
 
 
 /* 
