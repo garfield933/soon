@@ -278,6 +278,15 @@ ul.stack_dbd263{
     width:53px!important;
     left:10px;
 }
+/* create server modal */
+.visual-refresh .header_c04f35 {
+    height:85px;
+    padding-bottom:0px;
+}
+.visual-refresh .templatesList_c04f35 {
+    padding-top:0px;
+    padding-bottom:0px;
+}
 
 /* title bar */
 .visual-refresh .chat_f75fb0[data-has-border=true], .visual-refresh .container__133bf {
