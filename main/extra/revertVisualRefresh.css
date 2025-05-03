@@ -246,6 +246,42 @@ ul.stack_dbd263{
     border:none!important;
     border-radius:4px!important;
 }
+/* server folders */
+.folderPreviewWrapper__48112 {
+    border-radius:var(--folder-radius);
+    scale:0.85!important;
+}
+.folderGroupBackground__48112 {
+    border-radius:var(--folder-radius);
+}
+.folderPreviewGuildIcon__48112:nth-child(1) {
+    border-radius: var(--folder-radius) 0px 0px 0px;
+}
+.folderPreviewGuildIcon__48112:nth-child(2) {
+    border-radius: 0px var(--folder-radius) 0px 0px;
+}
+.folderPreviewGuildIcon__48112:nth-child(3) {
+    border-radius: 0px 0px 0px var(--folder-radius);
+}
+.folderPreviewGuildIcon__48112:nth-child(4) {
+    border-radius: 0px 0px var(--folder-radius) 0px;
+}
+.itemsContainer_ef3116 .stack_dbd263:nth-child(1) {
+    height: calc(100% - 160px) !important;
+}
+/* server dragging (semi-broken still, will fix l8r) */
+.target_d144f8.dragOver_d144f8:nth-last-child(1):before {
+    background-color: var(--status-positive);
+    border-radius: 2px;
+    box-shadow: 0 0 3px var(--opacity-black-28);
+    content: "";
+    height: 4px;
+    position: absolute;
+    top: -47px!important;
+    z-index: 1;
+    width:53px!important;
+    left:10px;
+}
 
 /* title bar */
 .visual-refresh .chat_f75fb0[data-has-border=true], .visual-refresh .container__133bf {
