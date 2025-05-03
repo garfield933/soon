@@ -195,6 +195,11 @@ ul.stack_dbd263{
     border:none!important;
 }
 
+/* member list */
+.member__5d473 .childContainer__91a9d:not(:hover), .member_c8ffbb:not(:hover) {
+    background-color:var(--background-primary);
+}
+
 /* search bars */
 .visual-refresh .searchBar__97492 {
     background-color: var(--background-tertiary);
@@ -360,3 +365,5 @@ ul.stack_dbd263{
 .listItem__650eb .blobContainer_e5445c .wrapper_cc5dd2 foreignObject .acronym__6e9f8, .tutorialContainer__1f388 .listItemWrapper__91816 .wrapper_cc5dd2 .wrapper__6e9f8 > *:not(:hover) {
     background-color: #17151d!important;
 }
+
+
