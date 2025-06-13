@@ -116,7 +116,7 @@ ul.stack_dbd263{
     background-color: #18141d;
 }
 .note_fcb628 textarea {
-    background-color: #08070ae5!important;
+    background-color: transparent!important;
 }
 .visual-refresh .scroller__629e4 {
     margin-bottom:0;
@@ -405,7 +405,6 @@ ul.stack_dbd263{
     border-radius:0px 0px 4px 4px;
     margin-top:-2px!important;
     background-color: #121016;
-    border:1px solid black;
 }
 
 /* user profile popout */
