@@ -260,6 +260,9 @@ ul.stack_dbd263{
 .inputDefault__0f084, .select__3f413 {
     background-color: var(--messagebox-bg)!important;
 }
+.list_f369db .textArea__7aff3 {
+    background-color:transparent!important;
+}
 :where(.visual-refresh) .input__0f084 {
     height:40px;
 }
