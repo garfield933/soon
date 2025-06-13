@@ -53,8 +53,8 @@
     --reply-avatar-radius:5px; /* default: 5px */
 
   /* Server Image Shape (modifiable!) (change all of the numbers to modify shape) */
-    --server-radius:3px; /* default: 3px */
-    --folder-radius:5px; /* default: 5px */
+    --server-radius:4px; /* default: 4px */
+    --folder-radius:4px; /* default: 4px */
 
   /* Radial Status (modifiable!) */
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
