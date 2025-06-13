@@ -313,6 +313,9 @@ ul.stack_dbd263{
 :where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after, :where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
     background: none;
 }
+.sidebar__23e6b .item_b3f026.selected_b3f026 {
+    background-color: #1f1d25 !important;
+}
 .top_b3f026 .item_b3f026,
 /* vencord*/.vc-settings-tab-bar-item {
     border-bottom:1px solid transparent!important;
