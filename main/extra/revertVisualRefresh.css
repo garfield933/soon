@@ -254,9 +254,11 @@ ul.stack_dbd263{
 /* textboxes/inputs */
 .inputDefault__0f084 {
     border-radius:4px;
-    background-color:#1e1f22;
     border:none!important;
     transition:none!important;  
+}
+.inputDefault__0f084, .select__3f413 {
+    background-color: var(--messagebox-bg)!important;
 }
 :where(.visual-refresh) .input__0f084 {
     height:40px;
@@ -334,6 +336,9 @@ ul.stack_dbd263{
 /* settings profile modal */
 .accountProfileCard__1fed1 {
     border-radius: 4px;
+}
+.recentAvatarButton__1df30 .contents__201d5 img {
+    border-radius:4px!important;
 }
 /* vencord */
 .vc-settings-quickActions-pill {
@@ -488,4 +493,9 @@ ul.stack_dbd263{
 /* server icons */
 .listItem__650eb .blobContainer_e5445c .wrapper_cc5dd2 foreignObject .acronym__6e9f8, .tutorialContainer__1f388 .listItemWrapper__91816 .wrapper_cc5dd2 .wrapper__6e9f8 > *:not(:hover) {
     background-color: #17151d!important;
+}
+
+/* unloaded content placeholder */
+.wrapper_fc8177 {
+    background-color:var(--background-primary);
 }
