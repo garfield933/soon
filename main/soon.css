@@ -292,6 +292,10 @@ Do Not Touch.
 }
 
 /* Add Server Modal [+] */
+.theme-light .close-1mLglB.button__201d5, .backButton__78f69 {
+    opacity: 1;
+    color: var(--text-normal);
+}
 .theme-light .root__49fc1, .modalContent-33IoU, .header__49fc1 {
   background-color: var(--dark-background-secondary);
 }
