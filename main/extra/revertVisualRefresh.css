@@ -1,13 +1,14 @@
-/* revert visual refresh, made by Soon blahblahblah, some parts are from other people (credited i think) */
+/* a lot of this code is from https://github.com/Z4ne4what/Themes/blob/main/Revert%20Visual%20Refresh.css */
 
 /* Og panels */
 .visual-refresh [class^="panels_"] {
     border:none;
     bottom: 0px;
     left: 73px;
-    width: calc(81%);
+    width: calc(100% - 72px);
     border-radius: 0px;
     background-color: var(--background-secondary);
+
     >[class^="container_"] {
         padding: 0px;
         margin: 0 8px;
@@ -110,6 +111,9 @@ ul.stack_dbd263{
 .note_fcb628 textarea {
     background-color: #08070ae5!important;
 }
+.visual-refresh .scroller__629e4 {
+    margin-bottom:0;
+}
 
 /* * No Transitions * */
 /* friends list tabs */
@@ -139,7 +143,18 @@ ul.stack_dbd263{
     padding:7px;
     height:0px;
 }
+.nowPlayingColumn__133bf .itemCard__7e549 {
+    background-color: var(--background-secondary);
 
+    & .section__00943 {
+        background-color: var(--background-primary);
+    }
+}
+
+/* friends/nitro/shop tabs */
+.channel__972a0 {
+    border-radius:4px;
+}
 
 /* title bar */
 .stack_dbd263, .itemsContainer_ef3116, .title_c38106 {
@@ -226,6 +241,9 @@ ul.stack_dbd263{
 .fieldButton__1fed1 {
     border-radius: 993px!important;
 }
+.button__201d5 {
+    border-radius:3px!important;
+}
 /* textboxes/inputs */
 .inputDefault__0f084 {
     border-radius:4px;
@@ -277,6 +295,38 @@ ul.stack_dbd263{
     z-index: 1;
     width:53px!important;
     left:10px;
+}
+/* tabs */
+.tab_f8303a, .settingsTabBarItem_dc2e0e,
+/* vencord */.vc-settings-tab-bar-item  {
+    background-color: transparent!important;
+}
+.top_b3f026 .item_b3f026,
+/* vencord*/.vc-settings-tab-bar-item {
+    border-bottom:1px solid transparent!important;
+}
+.top_b3f026 .item_b3f026.selected_b3f026,
+/* vencord */.vc-settings-tab-bar-item {
+    border-bottom:1px solid white!important;
+}
+.authedAppV2__50a54 .headerV2__50a54, 
+.connectionHeader_c7f964 {
+    background-color: var(--background-secondary-alt);
+}
+.authedAppV2__50a54 .appDetailsContainer__50a54,
+.connectionOptionsWrapper_c7f964, .connection_c7f964 {
+    background-color: var(--background-secondary);
+}
+.connectionOptionsWrapper_c7f964 {
+    border-radius:var(--radius-sm);
+}
+/* settings profile modal */
+.accountProfileCard__1fed1 {
+    border-radius: 4px;
+}
+/* vencord */
+.vc-settings-quickActions-pill {
+    background-color: var(--background-secondary-alt)!important;
 }
 
 /* title bar */
@@ -351,9 +401,25 @@ ul.stack_dbd263{
 .tabBarItem_d1d9f3 {
     background-color: transparent!important;
 }
+.user-profile-popout, 
+/* modal */.user-profile-modal,
+/* settings modal */.accountProfileCard__1fed1 {
+    background-color: var(--background-secondary-alt);
+}
+/* user modal */
+.user-profile-modal {
+    border-radius:4px;
+}
+.root__24502 {
+    background-color: transparent;
+}
+.menuOverlay_ce8328, .card__39ec2,
+/* settings modal*/.background__1fed1, .background__1fed1 .fieldList__1fed1 {
+    background-color: var(--background-primary);
+}
 /* vencord stuff */
 .vc-settings-quickActions-card {
-    background-color: #121016!important;
+    background-color: var(--background-secondary)!important;
 }
 
 .vc-settings-quickActions-pill {
