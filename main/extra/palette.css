@@ -103,6 +103,9 @@ by blueb442 (Modified Purpura Palette)
     --background-surface-high:var(--background-secondary-alt);
     --card-primary-bg:var(--background-secondary-alt);
     --bg-surface-raised:var(--background-secondary-alt);
+
+    /* unloaded server/dm content */
+    --bg-overlay-chat:var(--background-primary);
     }
     
     .inputForm-3RoxXV .inputDefault__0f084, .container-1Lk8p7 .inputDefault__0f084 {
