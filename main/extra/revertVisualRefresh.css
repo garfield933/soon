@@ -457,7 +457,15 @@ ul.stack_dbd263{
 
 
 /* create server modal */
-.root__49fc1, .footer_c04f35, .header_c04f35, .header__49fc1 {
+.root__49fc1, .footer_c04f35 {
+    border-radius:4px!important;
+    border:none!important;
+}
+.footerSeparator__49fc1 {
+    border-radius:0px 0px 4px 4px!important;
+    border:none!important;
+}
+.header_c04f35, .header__49fc1 {
     border-radius:4px!important;
     border:none!important;
 }
