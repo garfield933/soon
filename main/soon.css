@@ -430,14 +430,14 @@ Do Not Touch.
     background-color: var(--background-primary)!important;
 }
 .card__84e3e .guildDetails__4cb8a {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary)!important;
     transition:0.3s ease all;
 }
 .card__84e3e .guildDetails__4cb8a:hover,
 .card__84e3e .guildDetails__4cb8a:hover .visual-refresh.theme-dark .iconMask__4cb8a, .visual-refresh.theme-light .iconMask__4cb8a,
 .container__86ab2, 
 .spinnerContainer__86bf6 {
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary-alt)!important;
 }
   
 /* Custom Status Modal */
