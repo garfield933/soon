@@ -96,6 +96,13 @@ by blueb442 (Modified Purpura Palette)
     /* Tab Bars */
     --itemtab-default: #00000063;
     --itemtab-selected: #000000bd;
+
+    /* visual refresh */
+    --background-surface-highest:var(--background-primary);
+    --background-surface-higher:var(--background-secondary-alt);
+    --background-surface-high:var(--background-secondary-alt);
+    --card-primary-bg:var(--background-secondary-alt);
+    --bg-surface-raised:var(--background-secondary-alt);
     }
     
     .inputForm-3RoxXV .inputDefault__0f084, .container-1Lk8p7 .inputDefault__0f084 {
