@@ -79,6 +79,7 @@ ul.stack_dbd263{
 }
 .itemsContainer_ef3116 .stack_dbd263:nth-child(1) {
     height:calc(100% - 140px)!important;
+    padding-bottom:20px!important;
 }
 .stack_dbd263 {
     bottom:5px;
@@ -93,7 +94,7 @@ ul.stack_dbd263{
     border-radius:0px!important;
 }
 .panels_c48ade .button__201d5:nth-child(2):not(.colorRed__201d5) {
-    border-radius:0px;
+    border-radius:0px!important;
 }
 .panels_c48ade .button__201d5:nth-child(4):not(.colorRed__201d5) {
     border-radius: 0px 9px 9px 0px!important;
@@ -104,6 +105,12 @@ ul.stack_dbd263{
 }
 .panels_c48ade {
     background-color: var(--background-secondary-alt)!important;
+}
+.panels_c48ade .micButtonParent__37e49 button {
+    border-radius:9px 0px 0px 9px!important;
+}
+.panels_c48ade .button__201d5:nth-child(2) {
+    border-radius:0px!important;
 }
 .panels_c48ade .button__67645 {
     background-color: #18141d;
@@ -301,6 +308,9 @@ ul.stack_dbd263{
 /* vencord */.vc-settings-tab-bar-item  {
     background-color: transparent!important;
 }
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after, :where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
+    background: none;
+}
 .top_b3f026 .item_b3f026,
 /* vencord*/.vc-settings-tab-bar-item {
     border-bottom:1px solid transparent!important;
@@ -309,6 +319,7 @@ ul.stack_dbd263{
 /* vencord */.vc-settings-tab-bar-item {
     border-bottom:1px solid white!important;
 }
+/* settings cards */
 .authedAppV2__50a54 .headerV2__50a54, 
 .connectionHeader_c7f964 {
     background-color: var(--background-secondary-alt);
