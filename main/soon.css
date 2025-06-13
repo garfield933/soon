@@ -414,6 +414,31 @@ Do Not Touch.
 .searchBoxInput-3h4etz:not(#a) {
   color:var(--messagebox-text);
 }
+.selected_b3f026 {
+    background-color: transparent!important;
+}
+.page_c48ade .searchBar__1ac1c {
+    height:35px;
+}
+.page_c48ade .inner_a45028 {
+    padding-bottom:3px!important;
+}
+.container__551b0 {
+    background-color: var(--background-secondary)!important;
+}
+.contentSection_b6bcee {
+    background-color: var(--background-primary)!important;
+}
+.card__84e3e .guildDetails__4cb8a {
+    background-color: var(--background-secondary);
+    transition:0.3s ease all;
+}
+.card__84e3e .guildDetails__4cb8a:hover,
+.card__84e3e .guildDetails__4cb8a:hover .visual-refresh.theme-dark .iconMask__4cb8a, .visual-refresh.theme-light .iconMask__4cb8a,
+.container__86ab2, 
+.spinnerContainer__86bf6 {
+    background-color: var(--background-secondary-alt);
+}
   
 /* Custom Status Modal */
 .modalRoot-1uudbL:not(#a) {
