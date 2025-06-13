@@ -54,7 +54,10 @@
 :root {
     --guildbar-scale: 1.20;
 }
-/* -- Fix server icons size -- */
+/* -- Fix server icons size by daddyboard -- */
+.wrapper__6e9f8.selected__6e9f8 .childWrapperHoverScale__6e9f8, .wrapper__6e9f8:hover .childWrapperHoverScale__6e9f8 {
+    scale:1;
+}
 /* Target non-server icons on the left bar */
 .scroller_ef3116 > div:not(.stack_dbd263) {
     padding-top:8px;
