@@ -1032,5 +1032,9 @@ body #app-mount .quickSelectPopout_ebaca5>.quickSelectPopoutOption_b852b1:hover{
 .visual-refresh .sidebarListRounded_c48ade{
     border-top-left-radius: 5px!important;
 }
-
 /* fleep you, visual refresh */
+
+/* settings/titlebar background fix blahblah */
+.stack_dbd263, .systemBar_c38106 {
+    background-color: var(--background-primary)!important;
+}
