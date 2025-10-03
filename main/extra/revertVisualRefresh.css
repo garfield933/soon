@@ -38,6 +38,9 @@
 }
 
 /* server list */
+.tutorialContainer__1f388 {
+    z-index:999999;
+}
 .visual-refresh .sidebar_c48ade:after {
     content:none;
 }
