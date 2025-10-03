@@ -48,7 +48,7 @@
     margin-bottom: 105px;
 }
 .itemsContainer_ef3116, .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2, .tutorialContainer__1f388 /*, .tutorialContainer__650eb, .listItem__650eb:has(.discoveryIcon_ef3116) */ {
-    background-color: var(--background-primary) !important;
+    background-color: var(--background-tertiary) !important;
 }
 .guilds_c48ade div#guild-list-unread-dms:not([hidden]) {
     margin-top:35px;
@@ -187,7 +187,7 @@ ul.stack_dbd263{
 
 /* title bar */
 .stack_dbd263, .itemsContainer_ef3116, .title_c38106 {
-    background-color: var(--background-primary)!important;
+    background-color: var(--background-tertiary)!important;
 }
 .title__85643 .icon_f34534 {
     display:none;
