@@ -30,7 +30,7 @@
 /* Og channel icons */
 .visual-refresh .folderPreviewGuildIcon__48112[style]{
     --custom-guild-icon-size: calc(var(--guildbar-folder-size) / 2 - var(--space-8) / 2 - 0px);
-    border-radius: 10px !important;
+    /* border-radius: 10px !important; */
 }
 .visual-refresh .folderPreview__48112{
     gap: 0;
