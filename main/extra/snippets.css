@@ -20,7 +20,11 @@ Discord UserID: 678469587444170762
 #app-mount .wrapper__44b0c rect[fill="#d83a42"], #app-mount .wrapper__44b0c rect[fill="#d83a41"] {
   stroke: var(--rs-dnd-color);
 }
-
+/* radialstat temp fix 10/3/2025 dm topbar pfp size */
+#app-mount .upperContainer__9293f .wrapper__44b0c foreignObject {
+    height: 25px;
+    width: 25px;
+}
 
 /* 
 -Pin Home Icon-
