@@ -54,6 +54,9 @@
 .guilds_c48ade div#guild-list-unread-dms:is([hidden]) {
     margin-top:10px;
 }
+.listItem__650eb .folderHeader__48112 { /* folder fix */
+    margin:2px!important;
+}
 
 .listItem__650eb:has(.discoveryIcon_ef3116)  {
     bottom:76px!important;
