@@ -90,7 +90,7 @@ ul.stack_dbd263{
 
 /* User Panel */
 .panels_c48ade .button__201d5:not(.colorRed__201d5) {
-    margin-right:-4px!important;
+    margin-right:-8px!important;
     position:relative;
 }
 .panels_c48ade .buttons__37e49:nth-child(2):not(.colorRed__201d5) {
@@ -104,7 +104,7 @@ ul.stack_dbd263{
 }
 .panels_c48ade .buttons__37e49 {
     position:relative;
-    right:5px;
+    right:10px;
 }
 .panels_c48ade {
     background-color: var(--background-secondary-alt)!important;
