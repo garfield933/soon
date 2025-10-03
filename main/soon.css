@@ -54,7 +54,7 @@ code {
 .tutorialContainer__1f388 > .listItem__650eb:first-child{
   margin-top:9px;
 }
-.scroller_ef3116 .wrapper_cc5dd2 foreignObject, .folderIconWrapper__48112, .wrapperSimple_cc5dd2, .expandedFolderBackground__48112 {
+.scroller_ef3116 .wrapper_cc5dd2 foreignObject, .folderPreviewWrapper__48112, .wrapperSimple_cc5dd2, .folderGroupBackground__48112 {
   mask: none;
   border-radius: var(--folder-radius);
 }
@@ -435,8 +435,8 @@ Do Not Touch.
 }
 .card__84e3e .guildDetails__4cb8a:hover,
 .card__84e3e .guildDetails__4cb8a:hover .visual-refresh.theme-dark .iconMask__4cb8a, .visual-refresh.theme-light .iconMask__4cb8a,
-.container__86ab2, 
-.spinnerContainer__86bf6 {
+.container_dca174, 
+.spinnerContainer_d3846c {
     background-color: var(--background-secondary-alt)!important;
 }
   
@@ -646,7 +646,7 @@ Do Not Touch.
   background-color:rgba(31, 26, 35, 0.198);
 }
 .expandedFolderIconWrapper__48112,
-.expandedFolderBackground__48112  {
+.folderGroupBackground__48112  {
     background-color: var(--opened-folder-bg);
 }
 
@@ -967,7 +967,7 @@ body #app-mount .quickSelectPopout_ebaca5>.quickSelectPopoutOption_b852b1:hover{
 }
 
 /* Vencord Stuff */
-.vc-plugins-filter-controls .inputWrapper__0f084 input,
+.vc-plugins-filter-controls .inputWrapper__0ed4f input,
 .vc-plugins-filter-controls .select__3f413 {
     background-color: var(--background-tertiary);
     border-color: var(--background-tertiary);
