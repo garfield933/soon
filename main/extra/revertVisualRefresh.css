@@ -28,11 +28,11 @@
 
 
 /* Og channel icons */
-.visual-refresh .guildIcon__48112[style]{
+.visual-refresh .folderPreviewGuildIcon__48112[style]{
     --custom-guild-icon-size: calc(var(--guildbar-folder-size) / 2 - var(--space-8) / 2 - 0px);
     border-radius: 10px !important;
 }
-.visual-refresh .closedFolderIconWrapper__48112{
+.visual-refresh .folderPreview__48112{
     gap: 0;
     border-radius: 0;
 }
@@ -74,7 +74,7 @@ ul.stack_dbd263{
     height: auto !important;
 }
 /* Increase width of the folder background */
-.expandedFolderBackground__48112 {
+.folderGroupBackground__48112 {
     transform: scaleX(calc(var(--guildbar-scale) * 0.95));
 }
 .tutorialContainer__1f388 > .listItem__650eb:first-child {
@@ -263,10 +263,10 @@ ul.stack_dbd263{
 .inputDefault__0f084, .select__3f413 {
     background-color: var(--messagebox-bg)!important;
 }
-.list_f369db .textArea__7aff3 {
+.list_f369db .textArea__89a34 {
     background-color:transparent!important;
 }
-:where(.visual-refresh) .input__0f084 {
+:where(.visual-refresh) .input__0ed4f {
     height:40px;
 }
 .bioTextArea__6a919, .bioTextAreaContainer__6a919 {
@@ -422,7 +422,7 @@ ul.stack_dbd263{
 }
 
 /* user profile popout */
-.tabBarItem_d1d9f3 {
+.tabBarItem__37bfc {
     background-color: transparent!important;
 }
 .user-profile-popout, 
