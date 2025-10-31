@@ -33,14 +33,14 @@ Discord UserID: 515780151791976453
 */
 
 /* pin home */
-.guilds_c48ade .tree_ef3116:focus {
+.guilds__5e434 .tree_ef3116:focus {
     outline-color: transparent;
   }
-  .guilds_c48ade .scroller_ef3116 {
+  .guilds__5e434 .scroller_ef3116 {
     contain: unset;
     margin-top: 53px;
   }
-  .guilds_c48ade .scroller_ef3116 .tutorialContainer__1f388 {
+  .guilds__5e434 .scroller_ef3116 .tutorialContainer__1f388 {
     position: fixed;
     transform: translatey( -115% );
     background-color:#171717;
@@ -406,7 +406,7 @@ Discord UserID: 678469587444170762
     padding-right: unset;
 }
 
-.recentMentionsPopout__95796 .messagesPopout__45690 {
+.recentMentionsPopout__95796 .messagesPopout_e8b59c {
     padding: 16px;
 }
 
