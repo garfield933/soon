@@ -41,7 +41,7 @@
 .tutorialContainer__1f388 {
     z-index:999999;
 }
-.visual-refresh .sidebar_c48ade:after {
+.visual-refresh .sidebar__5e434:after {
     content:none;
 }
 .unreadMentionsFixedFooter_ef3116 {
@@ -50,11 +50,11 @@
 .itemsContainer_ef3116, .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2, .tutorialContainer__1f388 /*, .tutorialContainer__650eb, .listItem__650eb:has(.discoveryIcon_ef3116) */ {
     background-color: var(--background-tertiary) !important;
 }
-.guilds_c48ade div#guild-list-unread-dms:not([hidden]) {
+.guilds__5e434 div#guild-list-unread-dms:not([hidden]) {
     margin-top:35px;
 }
 
-.guilds_c48ade div#guild-list-unread-dms:is([hidden]) {
+.guilds__5e434 div#guild-list-unread-dms:is([hidden]) {
     margin-top:10px;
 }
 .listItem__650eb .folderHeader__48112 { /* folder fix */
@@ -108,33 +108,33 @@ ul.stack_dbd263{
 }
 
 /* User Panel */
-.panels_c48ade .button__201d5:not(.colorRed__201d5) {
+.panels__5e434 .button__201d5:not(.colorRed__201d5) {
     margin-right:-8px!important;
     position:relative;
 }
-.panels_c48ade .buttons__37e49:nth-child(2):not(.colorRed__201d5) {
+.panels__5e434 .buttons__37e49:nth-child(2):not(.colorRed__201d5) {
     border-radius:0px!important;
 }
-.panels_c48ade .button__201d5:nth-child(2):not(.colorRed__201d5) {
+.panels__5e434 .button__201d5:nth-child(2):not(.colorRed__201d5) {
     border-radius:0px!important;
 }
-.panels_c48ade .button__201d5:nth-child(4):not(.colorRed__201d5) {
+.panels__5e434 .button__201d5:nth-child(4):not(.colorRed__201d5) {
     border-radius: 0px 9px 9px 0px!important;
 }
-.panels_c48ade .buttons__37e49 {
+.panels__5e434 .buttons__37e49 {
     position:relative;
     right:10px;
 }
-.panels_c48ade {
+.panels__5e434 {
     background-color: var(--background-secondary-alt)!important;
 }
-.panels_c48ade .micButtonParent__37e49 button {
+.panels__5e434 .micButtonParent__37e49 button {
     border-radius:9px 0px 0px 9px!important;
 }
-.panels_c48ade .button__201d5:nth-child(2) {
+.panels__5e434 .button__201d5:nth-child(2) {
     border-radius:0px!important;
 }
-.panels_c48ade .button__67645 {
+.panels__5e434 .button__67645 {
     background-color: #18141d;
 }
 .note_fcb628 textarea {
@@ -147,28 +147,28 @@ ul.stack_dbd263{
 /* * No Transitions * */
 /* friends list tabs */
 .peopleListItem_cc6179, /* friends list tabs */ 
-.item_b3f026, /* settings tabs */
+.item_aa8da2, /* settings tabs */
 .button__201d5 /* settings profile buttons */ {
     transition:none!important;
 }
 .peopleColumn__133bf {
     background-color: #15131a;
 }
-.container__9293f, .searchBar__35e86  {
+.container__9293f, .searchBar_e6b769  {
     border-color:#15131a!important;
     box-shadow: -3px 1px 4px rgba(0, 0, 0, 0.388);
 }
-.searchBar__35e86, .header_f37cb1 {
+.searchBar_e6b769, .header_f37cb1 {
     border:none!important;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.388)!important;
 }
 .addFriend__133bf {
     background-color: #237f44!important;
 }
-.selected_b3f026 {
+.selected_aa8da2 {
     background-color: #1f1d25!important;
 }
-.visual-refresh .topPill_b3f026 .item_b3f026 {
+.visual-refresh .topPill_aa8da2 .item_aa8da2 {
     padding:7px;
     height:0px;
 }
@@ -194,13 +194,13 @@ ul.stack_dbd263{
 }
 
 /* DM list / Channel List coloring / Settings coloring */
-.scroller__99e7c, .privateChannels__35e86, .scroller__629e4, .header_f37cb1, .sidebarRegionScroller__23e6b  {
+.scroller__99e7c, .privateChannels_e6b769, .scroller__629e4, .header_f37cb1, .sidebarRegionScroller__23e6b  {
     background-color:var(--background-secondary)!important; 
 }
 .interactive_bf202d.selected_bf202d {
     background-color:#1a191f!important;
 }
-.searchBar__35e86 .button__201d5 .contents__201d5 {
+.searchBar_e6b769 .button__201d5 .contents__201d5 {
     position:relative;
     right:35px;
     color:#72767d;
@@ -222,13 +222,13 @@ ul.stack_dbd263{
 
 /* random coloring */
 .scroller__36d07, .form_f75fb0, .members_c8ffbb, .contentRegionScroller__23e6b,
-.sidebar_c48ade, .sidebarList_c48ade {
+.sidebar__5e434, .sidebarList__5e434 {
     background-color: var(--background-primary)!important;
 }
-.sectionDivider__35e86 {
+.sectionDivider_e6b769 {
     background-color: transparent!important;
 }
-.visual-refresh .searchBar__35e86, .sidebarList_c48ade {
+.visual-refresh .searchBar_e6b769, .sidebarList__5e434 {
     border:none!important;
 }
 
@@ -335,17 +335,17 @@ ul.stack_dbd263{
 /* vencord */.vc-settings-tab-bar-item  {
     background-color: transparent!important;
 }
-:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after, :where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after, :where(.visual-refresh) .top_aa8da2 .item_aa8da2:hover:after {
     background: none;
 }
-.sidebar__23e6b .item_b3f026.selected_b3f026 {
+.sidebar__23e6b .item_aa8da2.selected_aa8da2 {
     background-color: #1f1d25 !important;
 }
-.top_b3f026 .item_b3f026,
+.top_aa8da2 .item_aa8da2,
 /* vencord*/.vc-settings-tab-bar-item {
     border-bottom:1px solid transparent!important;
 }
-.top_b3f026 .item_b3f026.selected_b3f026,
+.top_aa8da2 .item_aa8da2.selected_aa8da2,
 /* vencord */.vc-settings-tab-bar-item {
     border-bottom:1px solid white!important;
 }
@@ -421,7 +421,7 @@ ul.stack_dbd263{
     background-color: #5865f2; /* --blurple */
 }
 
-.searchBar__35e86 .button__201d5 {
+.searchBar_e6b769 .button__201d5 {
     background-color: #08070a!important;
 }
 
@@ -468,18 +468,18 @@ ul.stack_dbd263{
 .vc-settings-quickActions-pill {
     background-color: var(--background-secondary-alt); 
 }
-.vc-settings-tab-bar-item item_b3f026 {
+.vc-settings-tab-bar-item item_aa8da2 {
     background-color: transparent!important;
 }
 
-:where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026 {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2.brand_aa8da2 {
     --selected-tab-item-color: white;
     transition:none;
 }
-:where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026::after {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2.brand_aa8da2::after {
     content:none;
 }
-:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026 {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2 {
     border-bottom:1px solid #949cf7;
 }
 .vc-settings-card {
@@ -514,7 +514,7 @@ ul.stack_dbd263{
     padding-top:0px;
     padding-bottom:0px;
 }
-.container__024d4 {
+.container__23ba6 {
     border-radius:4px;
 }
 
