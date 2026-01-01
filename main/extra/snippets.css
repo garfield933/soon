@@ -6,22 +6,22 @@ Discord UserID: 678469587444170762
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/BIRBanners.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
-.c19a557985eb7793-avatar {
+.avatar_c19a55 {
     border-radius: var(--rs-avatar-shape);
 } /* temp fix for radialstat (discord class change 7/4/2024) */
 /* temp fix for radialstat (discord status color change 5/3/2025) */
 /* idk the color for streaming people ill fix that later lol, hmu if yk it */
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#43a25a"], #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#40a258"] {
+#app-mount .wrapper__44b0c rect[fill="#43a25a"], #app-mount .wrapper__44b0c rect[fill="#40a258"] {
   stroke: var(--rs-online-color);
 }
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#ca9654"], #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#cc954c"] {
+#app-mount .wrapper__44b0c rect[fill="#ca9654"], #app-mount .wrapper__44b0c rect[fill="#cc954c"] {
   stroke: var(--rs-idle-color);
 }
-#app-mount ._44b0c28be7879b7b-wrapper rect[fill="#d83a42"], #app-mount ._44b0c28be7879b7b-wrapper rect[fill="#d83a41"] {
+#app-mount .wrapper__44b0c rect[fill="#d83a42"], #app-mount .wrapper__44b0c rect[fill="#d83a41"] {
   stroke: var(--rs-dnd-color);
 }
 /* radialstat temp fix 10/3/2025 dm topbar pfp size */
-#app-mount ._9293f6b2fc12398a-upperContainer ._44b0c28be7879b7b-wrapper foreignObject {
+#app-mount .upperContainer__9293f .wrapper__44b0c foreignObject {
     height: 25px;
     width: 25px;
 }
@@ -33,26 +33,26 @@ Discord UserID: 515780151791976453
 */
 
 /* pin home */
-._5e434347c823b592-guilds .ef3116c2da186559-tree:focus {
+.guilds__5e434 .tree_ef3116:focus {
     outline-color: transparent;
   }
-  ._5e434347c823b592-guilds .ef3116c2da186559-scroller {
+  .guilds__5e434 .scroller_ef3116 {
     contain: unset;
     margin-top: 53px;
   }
-  ._5e434347c823b592-guilds .ef3116c2da186559-scroller ._1f388bcaa446c0c8-tutorialContainer {
+  .guilds__5e434 .scroller_ef3116 .tutorialContainer__1f388 {
     position: fixed;
     transform: translatey( -115% );
     background-color:#171717;
     border-top-right-radius:10px;
   }
-  ._1f388bcaa446c0c8-tutorialContainer._650eb104245d257b-listItem.wrapper__8436d[data-list-item-id="guildsnav___home"] {
+  .tutorialContainer__1f388.listItem__650eb.wrapper__8436d[data-list-item-id="guildsnav___home"] {
     margin-top:25px!important;
   }
-  ._252b6afd49fda06f-guildSeparator {
+  .guildSeparator__252b6 {
     display:none;
   }
-  .ef3116c2da186559-unreadMentionsIndicatorTop {
+  .unreadMentionsIndicatorTop_ef3116 {
     margin-top:50px;
   }
 
@@ -65,7 +65,7 @@ Discord UserID: 678469587444170762
 
 /*betterInvites*/
 /*background*/
-.d5f3cd116f175f35-wrapper {
+.wrapper_d5f3cd {
   background: var(--background-secondary-alt);
   border-radius: 8px;
   padding: 16px;
@@ -77,8 +77,8 @@ Discord UserID: 678469587444170762
   transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:focus,
-.d5f3cd116f175f35-wrapper:hover {
+.wrapper_d5f3cd:focus,
+.wrapper_d5f3cd:hover {
   background: var(--background-tertiary);
   transform: translateY(-1px);
   -webkit-transform: translateY(-1px);
@@ -86,29 +86,29 @@ Discord UserID: 678469587444170762
   -webkit-box-shadow: var(--elevation-high)
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-content {
+.wrapper_d5f3cd .content_d5f3cd {
   position: relative;
   min-height: 113px;
   z-index: 1
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-header {
+.wrapper_d5f3cd .header_d5f3cd {
   position: relative;
   z-index: 2
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-inviteSplash {
+.wrapper_d5f3cd .inviteSplash_d5f3cd {
   position: absolute;
   border-radius: 8px 8px 0 0;
   height: 87px;
   transition: transform .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-inviteSplashImage {
+.wrapper_d5f3cd .inviteSplashImage_d5f3cd {
   transition: transform .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-inviteSplashImage {
+.wrapper_d5f3cd:hover .inviteSplashImage_d5f3cd {
   transform: scale(1.01) translateZ(0) !important;
   -webkit-transform: scale(1.01) translateZ(0) !important
 }
@@ -131,11 +131,11 @@ Discord UserID: 678469587444170762
   transition: transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .BetterInvites-guildBanner img {
+.wrapper_d5f3cd:hover .BetterInvites-guildBanner img {
   transform: scale(101%)
 }
 
-.d5f3cd116f175f35-guildIcon {
+.guildIcon_d5f3cd {
   position: absolute;
   top: 17px;
   box-shadow: 0 0 0 4px var(--background-secondary-alt);
@@ -147,31 +147,31 @@ Discord UserID: 678469587444170762
   transition: box-shadow .2s ease-out, background .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon {
+.wrapper_d5f3cd:hover .guildIcon_d5f3cd {
   box-shadow: 0 0 0 4px var(--background-tertiary)
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-guildInfo {
+.wrapper_d5f3cd .guildInfo_d5f3cd {
   justify-content: initial;
   transform: translate(0, 35px);
   width: 0
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-statusCounts {
+.wrapper_d5f3cd .statusCounts_d5f3cd {
   font-weight: 400;
   font-size: 12px
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-statusOffline {
+.wrapper_d5f3cd .statusOffline_d5f3cd {
   background-color: var(--interactive-normal)
 }
 
-.d5f3cd116f175f35-wrapper .BetterInvites-iconWrapper img {
+.wrapper_d5f3cd .BetterInvites-iconWrapper img {
   width: 18px;
   height: 18px !important
 }
 
-.d5f3cd116f175f35-wrapper .BetterInvites-iconWrapper {
+.wrapper_d5f3cd .BetterInvites-iconWrapper {
   position: relative;
   top: 50px;
   height: 18px
@@ -181,7 +181,7 @@ Discord UserID: 678469587444170762
   width: 400px
 }
 
-.BetterInvites-guildDescription ._752971923a1e6683-markup {
+.BetterInvites-guildDescription .markup__75297 {
   margin: 76px 0 0 0 !important;
   color: var(--header-secondary);
   font-size: 14px;
@@ -189,7 +189,7 @@ Discord UserID: 678469587444170762
   position: relative
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-button {
+.wrapper_d5f3cd .button_d5f3cd {
   position: absolute;
   right: 0;
   top: 17px;
@@ -204,22 +204,22 @@ Discord UserID: 678469587444170762
   opacity: 0
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-button {
+.wrapper_d5f3cd:hover .button_d5f3cd {
   opacity: 1
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-button:hover {
+.wrapper_d5f3cd .button_d5f3cd:hover {
   color: var(--interactive-hover);
   filter: brightness(105%)
 }
 
-.d5f3cd116f175f35-wrapper .buttonSize_d5f3cd .contents-3ca1mk {
+.wrapper_d5f3cd .buttonSize_d5f3cd .contents-3ca1mk {
   position: relative;
   text-overflow: unset;
   overflow: visible
 }
 
-.d5f3cd116f175f35-guildIcon::after {
+.guildIcon_d5f3cd::after {
   display: block;
   position: relative;
   content: "";
@@ -235,16 +235,16 @@ Discord UserID: 678469587444170762
   transition: background-size .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon::after {
+.wrapper_d5f3cd:hover .guildIcon_d5f3cd::after {
   background-size: 101% !important
 }
 
 /* full height banner */
 /* 
-.d5f3cd116f175f35-guildIcon::after,.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-inviteSplash{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
-.d5f3cd116f175f35-guildIcon::after,.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
-.d5f3cd116f175f35-guildIcon,.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon{box-shadow:none}
+.guildIcon_d5f3cd::after,.wrapper_d5f3cd .inviteSplash_d5f3cd{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
+.guildIcon_d5f3cd::after,.wrapper_d5f3cd:hover .guildIcon_d5f3cd::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
+.wrapper_d5f3cd:hover .guildIcon_d5f3cd::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
+.guildIcon_d5f3cd,.wrapper_d5f3cd:hover .guildIcon_d5f3cd{box-shadow:none}
 */
 
 /* 
@@ -253,26 +253,26 @@ By Disease
 Discord UserID: 678469587444170762
 */
 
-.a2f5142ba8328dfd-container {
+.container_a2f514 {
     background: transparent;
     pointer-events: none;
 }
-.a2f5142ba8328dfd-container .anchor-1MIwyf { pointer-events: auto; }
-.a2f5142ba8328dfd-container .a2f5142ba8328dfd-content .a2f5142ba8328dfd-text {
+.container_a2f514 .anchor-1MIwyf { pointer-events: auto; }
+.container_a2f514 .content_a2f514 .text_a2f514 {
     display:none;
 }
-.a2f5142ba8328dfd-container .a2f5142ba8328dfd-ready {
+.container_a2f514 .ready_a2f514 {
     position: absolute;
     bottom: 44px;
     right: 244px;
     z-index: 1;
 }
 
-.a2f5142ba8328dfd-container img, .a2f5142ba8328dfd-container video {
+.container_a2f514 img, .container_a2f514 video {
     width: 32px;
     height: 32px;
 }
-.a2f5142ba8328dfd-container .a2f5142ba8328dfd-problems {
+.container_a2f514 .problems_a2f514 {
     padding: 8px 16px;
     bottom: 18px;
     left: unset;
@@ -305,8 +305,8 @@ TheCommieAxolotl - Base code
 Debuggerz1 - Math
  */
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage>.c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage:not(._5126c0cd07f243a0-groupStart)>.c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c>.contents_c19a55,
+.cozyMessage__5126c:not(.groupStart__5126c)>.contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
     max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
@@ -318,72 +318,72 @@ Debuggerz1 - Math
     box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
 }
 
-._5126c0cd07f243a0-cozyMessage ._5126c0cd07f243a0-automodMessage:before,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-ephemeral:before,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-mentioned:before,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-replying:before {
+.cozyMessage__5126c .automodMessage__5126c:before,
+.cozyMessage__5126c.ephemeral__5126c:before,
+.cozyMessage__5126c.mentioned__5126c:before,
+.cozyMessage__5126c.replying__5126c:before {
     width: calc(2px - (var(--chat-bubble) * 2px));
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-mentioned .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-mentioned:not(._5126c0cd07f243a0-groupStart) .c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.mentioned__5126c .contents_c19a55,
+.cozyMessage__5126c.mentioned__5126c:not(.groupStart__5126c) .contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
     background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
 }
 
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-mentioned {
+.cozyMessage__5126c.mentioned__5126c {
     background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-replying .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-replying:not(._5126c0cd07f243a0-groupStart) .c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *),
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-ephemeral .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-ephemeral:not(._5126c0cd07f243a0-groupStart) .c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.replying__5126c .contents_c19a55,
+.cozyMessage__5126c.replying__5126c:not(.groupStart__5126c) .contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *),
+.groupStart__5126c.cozyMessage__5126c.ephemeral__5126c .contents_c19a55,
+.cozyMessage__5126c.ephemeral__5126c:not(.groupStart__5126c) .contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
     background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
 }
 
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-replying,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-ephemeral {
+.cozyMessage__5126c.replying__5126c,
+.cozyMessage__5126c.ephemeral__5126c {
     background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage:not(._5126c0cd07f243a0-groupStart) .c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.automodMessage__5126c .contents_c19a55,
+.cozyMessage__5126c.automodMessage__5126c:not(.groupStart__5126c) .contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
     background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
 }
 
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage {
+.cozyMessage__5126c.automodMessage__5126c {
     background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage:hover .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage:not(._5126c0cd07f243a0-groupStart):hover .c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.automodMessage__5126c:hover .contents_c19a55,
+.cozyMessage__5126c.automodMessage__5126c:not(.groupStart__5126c):hover .contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *) {
     background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
     background-size: calc(var(--chat-bubble) * 1px);
     border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
 }
 
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage:hover {
+.cozyMessage__5126c.automodMessage__5126c:hover {
     background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
     background-size: calc((1 - var(--chat-bubble)) * 1px);
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage>.c19a557985eb7793-contents ._752971923a1e6683-markup code,
-._5126c0cd07f243a0-cozyMessage:not(._5126c0cd07f243a0-groupStart)>.c19a557985eb7793-contents>._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) code {
+.groupStart__5126c.cozyMessage__5126c>.contents_c19a55 .markup__75297 code,
+.cozyMessage__5126c:not(.groupStart__5126c)>.contents_c19a55>.markup__75297:not(:empty, .searchResultsWrap_a9e706 *) code {
     background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
     background-color: var(--background-secondary);
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
-._752971923a1e6683-markup blockquote, ._752971923a1e6683-markup pre {
+.markup__75297 blockquote, .markup__75297 pre {
     max-width: 100%;
 }
 
@@ -395,102 +395,102 @@ Discord UserID: 678469587444170762
 */
 
 
-._957962c2bd49881b-recentMentionsPopout ._957962c2bd49881b-container,
-._957962c2bd49881b-recentMentionsPopout ._427f0273a157ab7a-channel {
+.recentMentionsPopout__95796 .container__95796,
+.recentMentionsPopout__95796 .channel__427f0 {
     background-color: var(--background-primary);
     border-radius: 8px;
     overflow: hidden;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._957962c2bd49881b-container {
+.recentMentionsPopout__95796 .container__95796 {
     padding-right: unset;
 }
 
-._957962c2bd49881b-recentMentionsPopout .e8b59c4b335dd2fc-messagesPopout {
+.recentMentionsPopout__95796 .messagesPopout_e8b59c {
     padding: 16px;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._427f0273a157ab7a-channel {
+.recentMentionsPopout__95796 .channel__427f0 {
     margin: 16px 8px 16px 0;
     padding-bottom: 0;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-channelHeader {
+.recentMentionsPopout__95796 .channelHeader__35a7e {
     background-color: var(--background-primary);
     height: fit-content;
     padding: 6px 16px;
     border-bottom: thin solid var(--background-modifier-accent);
 }
 
-._957962c2bd49881b-recentMentionsPopout ._957962c2bd49881b-messageContainer,
-._957962c2bd49881b-recentMentionsPopout ._1ccd1ba5cb2270c2-messages {
+.recentMentionsPopout__95796 .messageContainer__95796,
+.recentMentionsPopout__95796 .messages__1ccd1 {
     margin-left: unset;
     background: none;
     border-radius: unset;
 }
 
 /* header icon */
-._957962c2bd49881b-recentMentionsPopout .f34534e8a5d3ca64-iconSizeMedium {
+.recentMentionsPopout__95796 .iconSizeMedium_f34534 {
     width: 24px;
     height: 24px;
 }
 
-._957962c2bd49881b-recentMentionsPopout .f34534e8a5d3ca64-iconActiveMedium {
+.recentMentionsPopout__95796 .iconActiveMedium_f34534 {
     border-radius: 7px;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-dmIcon,
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-guildIcon {
+.recentMentionsPopout__95796 .dmIcon__35a7e,
+.recentMentionsPopout__95796 .guildIcon__35a7e {
     margin-right: 6px;
 }
 
 /* channel name section */
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-channelName svg path {
+.recentMentionsPopout__95796 .channelName__35a7e svg path {
     fill: var(--channel-icon);
 }
 
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-channelName svg {
+.recentMentionsPopout__95796 .channelName__35a7e svg {
     margin: 0 4px;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-channelNameSection {
+.recentMentionsPopout__95796 .channelNameSection__35a7e {
     -webkit-box-orient: unset;
     -ms-flex-direction: unset;
     flex-direction: unset;
 }
 
-._957962c2bd49881b-recentMentionsPopout .heading-md-medium-2DVCeJ,
-._957962c2bd49881b-recentMentionsPopout .heading-md-normal-3Ytn6I {
+.recentMentionsPopout__95796 .heading-md-medium-2DVCeJ,
+.recentMentionsPopout__95796 .heading-md-normal-3Ytn6I {
     font-size: 16px;
     line-height: 20px;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-subtext,
-._957962c2bd49881b-recentMentionsPopout ._35a7ecf3aba351b2-subtextContainer {
+.recentMentionsPopout__95796 .subtext__35a7e,
+.recentMentionsPopout__95796 .subtextContainer__35a7e {
     margin-left: 4px;
     line-height: 20px;
     width: fit-content;
 }
 
 /* buttons */
-._957962c2bd49881b-recentMentionsPopout ._957962c2bd49881b-container .closeButton__95796 {
+.recentMentionsPopout__95796 .container__95796 .closeButton__95796 {
     opacity: 0;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._957962c2bd49881b-container:hover .closeButton__95796 {
+.recentMentionsPopout__95796 .container__95796:hover .closeButton__95796 {
     opacity: 1;
 }
 
-._957962c2bd49881b-recentMentionsPopout .tertiary_ad6d80:not(.disabled__4d064),
-._957962c2bd49881b-recentMentionsPopout .tertiary_ad6d80:hover:not(.disabled__4d064) {
+.recentMentionsPopout__95796 .tertiary_ad6d80:not(.disabled__4d064),
+.recentMentionsPopout__95796 .tertiary_ad6d80:hover:not(.disabled__4d064) {
     background: none;
 }
 
-._957962c2bd49881b-recentMentionsPopout .collapseButton__427f0:hover {
+.recentMentionsPopout__95796 .collapseButton__427f0:hover {
     color: var(--interactive-active);
 }
 
-._957962c2bd49881b-recentMentionsPopout .collapseButton__427f0 {
+.recentMentionsPopout__95796 .collapseButton__427f0 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -502,7 +502,7 @@ Discord UserID: 678469587444170762
     margin-left: 12px;
 }
 
-._957962c2bd49881b-recentMentionsPopout ._1ccd1ba5cb2270c2-messages>button:last-of-type {
+.recentMentionsPopout__95796 .messages__1ccd1>button:last-of-type {
     margin-left:auto;
 }
 
@@ -513,18 +513,18 @@ Discord UserID: 678469587444170762
 By ElitePrime#7266
 Discord UserID: 542750206299734039
 */
-._421edea01cb52e16-winButton {
+.winButton__421ed {
   height: 25px;
   width: 34px;
   margin-top: 8px;
   padding-left: 8px;
   padding-right: 8px;
 }
-._421edea01cb52e16-withFrame {
+.withFrame__421ed {
   height: fit-content;
   margin-top: 0px;
 }
-._421edea01cb52e16-wordmarkWindows {
+.wordmarkWindows__421ed {
   margin-top: 10px;
   margin-left: 12px;
   padding: 0px;
@@ -535,7 +535,7 @@ Discord UserID: 542750206299734039
 
 /*betterInvites*/
 /*background*/
-.d5f3cd116f175f35-wrapper {
+.wrapper_d5f3cd {
   background: var(--background-secondary-alt);
   border-radius: 8px;
   padding: 16px;
@@ -547,8 +547,8 @@ Discord UserID: 542750206299734039
   transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:focus,
-.d5f3cd116f175f35-wrapper:hover {
+.wrapper_d5f3cd:focus,
+.wrapper_d5f3cd:hover {
   background: var(--background-tertiary);
   transform: translateY(-1px);
   -webkit-transform: translateY(-1px);
@@ -556,18 +556,18 @@ Discord UserID: 542750206299734039
   -webkit-box-shadow: var(--elevation-high)
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-content {
+.wrapper_d5f3cd .content_d5f3cd {
   position: relative;
   min-height: 113px;
   z-index: 1
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-header {
+.wrapper_d5f3cd .header_d5f3cd {
   position: relative;
   z-index: 2
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-inviteSplash {
+.wrapper_d5f3cd .inviteSplash_d5f3cd {
   position: absolute;
   border-radius: 8px 8px 0 0;
   height: 87px;
@@ -575,11 +575,11 @@ Discord UserID: 542750206299734039
   transition: transform .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-inviteSplashImage {
+.wrapper_d5f3cd .inviteSplashImage_d5f3cd {
   transition: transform .2s ease-out, -webkit-transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-inviteSplashImage {
+.wrapper_d5f3cd:hover .inviteSplashImage_d5f3cd {
   transform: scale(1.01) translateZ(0) !important;
   -webkit-transform: scale(1.01) translateZ(0) !important
 }
@@ -602,11 +602,11 @@ Discord UserID: 542750206299734039
   transition: transform .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .BetterInvites-guildBanner img {
+.wrapper_d5f3cd:hover .BetterInvites-guildBanner img {
   transform: scale(101%)
 }
 
-.d5f3cd116f175f35-guildIcon {
+.guildIcon_d5f3cd {
   position: absolute;
   top: 17px;
   box-shadow: 0 0 0 4px var(--background-secondary-alt);
@@ -618,31 +618,31 @@ Discord UserID: 542750206299734039
   transition: box-shadow .2s ease-out, background .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon {
+.wrapper_d5f3cd:hover .guildIcon_d5f3cd {
   box-shadow: 0 0 0 4px var(--background-tertiary)
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-guildInfo {
+.wrapper_d5f3cd .guildInfo_d5f3cd {
   justify-content: initial;
   transform: translate(0, 35px);
   width: 0
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-statusCounts {
+.wrapper_d5f3cd .statusCounts_d5f3cd {
   font-weight: 400;
   font-size: 12px
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-statusOffline {
+.wrapper_d5f3cd .statusOffline_d5f3cd {
   background-color: var(--interactive-normal)
 }
 
-.d5f3cd116f175f35-wrapper .BetterInvites-iconWrapper img {
+.wrapper_d5f3cd .BetterInvites-iconWrapper img {
   width: 18px;
   height: 18px !important
 }
 
-.d5f3cd116f175f35-wrapper .BetterInvites-iconWrapper {
+.wrapper_d5f3cd .BetterInvites-iconWrapper {
   position: relative;
   top: 50px;
   height: 18px
@@ -652,7 +652,7 @@ Discord UserID: 542750206299734039
   width: 400px
 }
 
-.BetterInvites-guildDescription ._752971923a1e6683-markup {
+.BetterInvites-guildDescription .markup__75297 {
   margin: 76px 0 0 0 !important;
   color: var(--header-secondary);
   font-size: 14px;
@@ -660,7 +660,7 @@ Discord UserID: 542750206299734039
   position: relative
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-button {
+.wrapper_d5f3cd .button_d5f3cd {
   position: absolute;
   right: 0;
   top: 17px;
@@ -675,22 +675,22 @@ Discord UserID: 542750206299734039
   opacity: 0
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-button {
+.wrapper_d5f3cd:hover .button_d5f3cd {
   opacity: 1
 }
 
-.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-button:hover {
+.wrapper_d5f3cd .button_d5f3cd:hover {
   color: var(--interactive-hover);
   filter: brightness(105%)
 }
 
-.d5f3cd116f175f35-wrapper .buttonSize_d5f3cd .contents-3ca1mk {
+.wrapper_d5f3cd .buttonSize_d5f3cd .contents-3ca1mk {
   position: relative;
   text-overflow: unset;
   overflow: visible
 }
 
-.d5f3cd116f175f35-guildIcon::after {
+.guildIcon_d5f3cd::after {
   display: block;
   position: relative;
   content: "";
@@ -706,14 +706,14 @@ Discord UserID: 542750206299734039
   transition: background-size .2s ease-out
 }
 
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon::after {
+.wrapper_d5f3cd:hover .guildIcon_d5f3cd::after {
   background-size: 101% !important
 }
 
 /* full height banner */
 /* 
-.d5f3cd116f175f35-guildIcon::after,.d5f3cd116f175f35-wrapper .d5f3cd116f175f35-inviteSplash{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
-.d5f3cd116f175f35-guildIcon::after,.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
-.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
-.d5f3cd116f175f35-guildIcon,.d5f3cd116f175f35-wrapper:hover .d5f3cd116f175f35-guildIcon{box-shadow:none}
+.guildIcon_d5f3cd::after,.wrapper_d5f3cd .inviteSplash_d5f3cd{height:100%;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,0.2) 0,rgba(0,0,0,1) 60%)}
+.guildIcon_d5f3cd::after,.wrapper_d5f3cd:hover .guildIcon_d5f3cd::after{height:173px;background-size:cover!important;-webkit-transition:transform .2s ease-out;transition:transform .2s ease-out}
+.wrapper_d5f3cd:hover .guildIcon_d5f3cd::after{transform:scale(1.01) translateZ(0)!important;-webkit-transform:scale(1.01) translateZ(0)!important}
+.guildIcon_d5f3cd,.wrapper_d5f3cd:hover .guildIcon_d5f3cd{box-shadow:none}
 */
